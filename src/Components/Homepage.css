@@ -1,0 +1,867 @@
+.menu-bar{
+    background-color: #070d29;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+    cursor: pointer;
+}
+.submenu{
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+.submenu h1{
+    width: 44px;
+    height: 22px;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #f1f0f0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.About h1{
+    width: 80px;
+
+}
+.contact h1{
+    width: 80px;
+
+}
+.submenu h1:hover {
+    
+    transform: translateX(-10%); /* center the box horizontally */
+    width: 80px;
+    height: 30px;
+    background-color: #FFB82B;
+    border-radius: 5px;
+    color: blue;
+    text-align: center;
+  }
+
+.nextmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin-top: 3px;
+    gap: 50px;
+
+    width: 416.99px;
+    height: 63px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #f1f0f0;
+}
+.appoint{
+    border: 1px solid none;
+    height: 4vh;
+    width: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+    
+}
+.body{
+    border: 1px solid none;
+    height: 80vh;
+    width: 100%;
+    background-color: #050300; 
+
+}
+.Photo {
+    max-width: 90%;
+    height: 80vh;
+    object-fit: cover;
+    width: 90%;
+    margin-left: 10%;
+    object-position: center;
+  }
+  .text{
+    margin-top: -35%;
+    margin-left: 13%;
+    position: absolute;
+    
+  }
+  .logistics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 294px;
+    height: 23px;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .color{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .logistics h1{
+    width: 246px;
+    height: 17px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .logistics h2{
+    width: 404px;
+    height: 213px;
+    position: absolute;
+    top: -4px;
+   
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+  
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    
+  }
+  .logistics h3{
+    width: 571px;
+    height: 72px;
+    top: 250px;
+    position: absolute;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
+  .explos{
+    cursor: pointer;
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    left: 0px;
+    top: 365px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rois {
+    position: absolute;
+    width: 68px;
+    height: 105.09px;
+    left: 140.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rois {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .explos:hover .rois {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .explos p{
+    width: 99px;
+    height: 22px;
+    margin-left: 20%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }
+  .about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 33px;
+
+    position: absolute;
+    width: 1200px;
+    height: 311px;
+    margin-left: 13%;
+    top: 875px;
+
+
+  }
+  .ric{
+    
+    width: 96px;
+    height: 23px;
+    
+
+    background: rgba(61, 83, 109, 0.5);
+  }
+  .colors{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .ric h1{
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 13px;
+    top: -4px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+  }
+  .about h2{
+    position: absolute;
+    width: 294px;
+    height: 93px;
+    left: 0px;
+    top: 38px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+
+    color: #1C1F35;
+
+  }
+  .safe{
+    position: absolute;
+    width: 39.32px;
+    height: 43.38px;
+    margin-left: 25%;
+    top: 25px;
+
+  }
+  .saf{
+    position: absolute;
+    width: 49.32px;
+    height: 53.38px;
+    margin-left: 25%;
+    margin-top: 20%;
+
+  }
+  .data{
+    border: 2px solid #D8D8D8;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 24%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .data h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .data p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  
+  .bi{
+    border: 2px solid #D8D8D8;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 74%;
+    margin-top: -12%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .bi h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .bi p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  
+  .train{
+    border: 2px solid #D8D8D8;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 34%;
+    margin-top: 2%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .train h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .train p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .safed{
+    position: absolute;
+    width: 49.32px;
+    height: 83.38px;
+    margin-left: 25%;
+    margin-top: -8%;
+
+  }
+  .cons{
+    border: 2px solid #D8D8D8;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 74%;
+    margin-top: -12%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .cons h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .cons p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+.tot{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30%;
+    width: 92%;
+    gap: 2px;
+background-color: #69cce4;
+    margin-left: 4%;
+  }
+  
+  .why {
+   
+    width: 50%;
+    height: 35vh;
+    
+    float: left;
+    background-image: url("../images/whys.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% contain;
+    background-position: center center;
+  }
+  .whys {
+    width: 50%;
+    height: 35vh;
+    background-image: url("../images/whyf.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+  .us {
+    height: 70vh;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 1100px;
+    margin-left: 20%;
+    margin-top: -5%;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0px -8px 34px -4px rgba(0, 0, 0, 0.5); /* This adds a large shadow on top of the element */
+  }
+  .ricy{
+    
+    width: 96px;
+    height: 23px;
+    margin-left: 5%;
+    background: rgba(61, 83, 109, 0.5);
+    margin-top: 5%;
+  }
+  .colors{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .ricy h1{
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 66px;
+    top:8%;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+  }
+  .us p{
+    
+width: 472px;
+height: 123px;
+margin-left: 5%;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+
+color: #1C1F35;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .us h2{
+    width: 464px;
+    height: 144px;
+    margin-left: 5%;
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #666C89;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .picx{
+    border: 1px solid transparent;
+    width: 443px;
+    height: 317px;
+    margin-left: 55%;
+    margin-top: -32%;
+    background-image: url("../images/pp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+  }
+  .picy{
+    border: 1px solid transparent;
+    width: 243px;
+    height: 217px;
+    margin-left: 50%;
+    margin-top: -15%;
+    background-image: url("../images/Photocut.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+  }
+  .come{
+    border: 1px solid transparent;
+    width: 243px;
+    height: 4vh;
+    margin-left: -5%;
+    margin-top: -3%;
+    position: absolute;
+    background-image: url("../images/next.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+  }
+  .us h3{
+    width: 337px;
+    height: 20px;
+    margin-left: 10%;
+    margin-top: -3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .help{
+    border: 1px solid transparent;
+    width: 243px;
+    height: 4vh;
+    margin-left: -5%;
+    margin-top: 0.5%;
+    position: absolute;
+    background-image: url("../images/Iconhelp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+  }
+  .us h4{
+    width: 337px;
+    height: 20px;
+    margin-left: 10%;
+    margin-top: 0.5%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .proje h1{
+    
+    width: 674px;
+    height: 41px;
+    margin-left: 30%;
+    margin-top: 35%;
+   
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #1C1F35;
+
+  }
+  .pro{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+
+  .rico{
+    
+    width: 96px;
+    height: 23px;
+    margin-left: 50%;
+    background: rgba(61, 83, 109, 0.5);
+    margin-top: -7%;
+    position: absolute;
+  }
+  .coloi{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .rico h1{
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    margin-top: -22.2%;
+    margin-left: 24%;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+  }
+  .wapi h2{
+    margin-left: 44%;
+    margin-top: -5%;
+    position: absolute;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #1C1F35;
+
+  }
+  .any{
+    display: flex;
+    flex-direction: column;
+    margin-left: 48%;
+    gap: 300px;
+    margin-top: 22%;
+    
+  }
+  .wapi{
+    width: 100%;
+    height: 130vh;
+    background-color: #f2f3f5;
+    border-radius: 8px;
+    margin-top: -18%;
+  
+  }
+  .yego{
+    
+  }
+  

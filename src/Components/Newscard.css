@@ -1,0 +1,168 @@
+.piic{
+    height: 40vh;
+    width: 60%;
+    margin-left: -25%;
+    margin-top: 4%;
+    position: absolute;
+    border: 2px solid #D6D6D6;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  
+}
+.imgs{
+    width: 320.17px;
+    background-color: 
+    #091242;
+    opacity: 0.8px;
+    align-items: center;
+    height: 30vh;
+    margin-top: 4%;
+}
+.haha{
+    height: 30vh;
+    margin-left: 55%;
+    margin-top: -26%;
+    position: absolute;
+    border: 2px solid #D6D6D6;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 12px;
+}
+.piic h1{width: 335px;
+    height: 90px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 15%;
+   
+    
+    color: #FFBE34;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.piic p{
+    
+width: 335px;
+height: 72px;
+margin-left: 15%;
+margin-top: -8%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+}
+.piic h2{
+    width: 335px;
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 166.52%;
+    /* or 27px */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.piic h3{
+    width: 335px;
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: -25%;
+   
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 166.52%;
+    /* or 27px */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+   
+}
+.safu{
+    position: absolute;
+    width: 39.32px;
+    height: 43.38px;
+    margin-left: 10%;
+    top: 25px;
+
+  }
+  .piic h4{
+    position: absolute;
+    width: 54px;
+    height: 47px;
+    left: 16px;
+    top: 30px;
+    margin-left: 41%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #1C1F35;
+  }
+  .piic h5{
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    
+    top: 80px;
+    margin-left: 41%;
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #666C89;
+  }

@@ -1,0 +1,555 @@
+.menu-bar{
+    background-color: #070d29;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+    cursor: pointer;
+}
+.submenu{
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+.submenu h1{
+    width: 44px;
+    height: 22px;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #f1f0f0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.About h1{
+    width: 80px;
+
+}
+.contact h1{
+    width: 80px;
+
+}
+.submenu h1:hover {
+    
+    transform: translateX(-10%); /* center the box horizontally */
+    width: 80px;
+    height: 30px;
+    background-color: #FFB82B;
+    border-radius: 5px;
+    color: blue;
+    text-align: center;
+  }
+
+.nextmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin-top: 3px;
+    gap: 50px;
+
+    width: 416.99px;
+    height: 63px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #f1f0f0;
+}
+.appoint{
+    border: 1px solid none;
+    height: 4vh;
+    width: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+    
+}
+.bodys{
+    border: 1px solid none;
+    height: 50vh;
+    width: 100%;
+    margin-top: 4.2%;
+    margin-left: 0;
+    
+
+}
+.Photos {
+    max-width: 90%;
+    height: 80vh;
+    object-fit: cover;
+    width: 90%;
+ 
+    object-position: center;
+  }
+  .text{
+    margin-top: -25%;
+    margin-left: 13%;
+    position: absolute;
+    
+  }
+  .huh{
+    height: 40vh;
+    width: 30%;
+    border: 1px solid transparent;
+    margin-top: -30%;
+    margin-left: 34%;
+    position: absolute;
+  }
+  .logistics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 294px;
+    height: 23px;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .color{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .logistics h1{
+    width: 246px;
+    height: 17px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .logistics h2{
+    width: 404px;
+    height: 213px;
+    position: absolute;
+    top: -4px;
+   
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+  
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    
+  }
+  .logistics h3{
+    width: 571px;
+    height: 72px;
+    top: 250px;
+    position: absolute;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
+  .explore {
+    cursor: pointer;
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    margin-left: 160%;
+    margin-top: 5%;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rot {
+    position: absolute;
+    width: 68px;
+    height: 105.09px;
+    left: 140.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rot {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .explore:hover .rot {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .explore h1{
+    width: 99px;
+    height: 22px;
+    margin-left: 20%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }
+  .blog{
+    margin-top: -32%;
+    width: 100%;
+    
+    height: 240vh;
+    background-color: #f2f3f5;
+    border-radius: 8px;
+  }
+  .blogs{
+    height: 40vh;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-left: 15%;
+
+  }
+  .hup{
+    height: 70vh;
+    width: 48%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: -20%;
+    margin-left: 50%;
+   
+  }
+  .hup h1{
+    width: 336px;
+    height: 22px;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFB629;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .hup p{
+    width: 511px;
+    height: 192px;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 133% */
+
+
+    color: #0c101f;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .hup h2{
+    width: 595px;
+    height: 224px;
+    margin-top: -20%;
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 178% */
+
+
+    color: #131D3B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .vis{
+    height: 50vh;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: -9%;
+    margin-left: 15%
+  }
+  .vis h1{
+    width: 336px;
+    height: 22px;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFB629;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .vis h2{
+    width: 454px;
+    height: 40px;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    /* identical to box height, or 222% */
+
+
+    color: #131D3B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .fot{
+    height: 40vh;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: -25%;
+    margin-left: 50%;
+  }
+  .hai{
+    height: 60vh;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .hai h1{
+    width: 425px;
+    height: 22px;
+    margin-top: -19%;
+    margin-left: 38%;
+    
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFB629;
+    position: absolute;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .hai p{
+    width: 680px;
+    height: 160px;
+    margin-top: -16%;
+    margin-left: 30%;
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #F2F3F5;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .founders{
+    height: 80vh;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  .founders h1{
+    position: absolute;
+    width: 279px;
+    height: 65px;
+    margin-top: 2%;
+    margin-left: 35%;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 65px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #131D3B;
+  }
+  .fou{
+    height: 44vh;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 9%;
+    margin-left: 8%;
+  }
+  .founders h2{
+    width: 511px;
+    height: 48px;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFB629;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .founders h3{
+    width: 511px;
+    height: 48px;
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 35%;
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFB629;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .founders p{
+    width: 595px;
+    height: 160px;
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 35%;
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    /* or 222% */
+
+
+    color: #131D3B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }

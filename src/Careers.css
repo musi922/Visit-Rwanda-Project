@@ -1,0 +1,657 @@
+.menu-bar{
+    background-color: #070d29;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+    cursor: pointer;
+}
+.submenu{
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-left: 4%;
+    margin-top: 6px;
+}
+.submenu h1{
+    width: 44px;
+    height: 22px;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #f1f0f0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.About h1{
+    width: 80px;
+
+}
+.contact h1{
+    width: 80px;
+
+}
+.submenu h1:hover {
+    
+    transform: translateX(-10%); /* center the box horizontally */
+    width: 80px;
+    height: 30px;
+    background-color: #FFB82B;
+    border-radius: 5px;
+    color: blue;
+    text-align: center;
+  }
+
+.nextmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin-top: 3px;
+    gap: 50px;
+
+    width: 416.99px;
+    height: 63px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #f1f0f0;
+}
+.appoint{
+    border: 1px solid none;
+    height: 4vh;
+    width: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+    
+}
+.body{
+    border: 1px solid none;
+    height: 80vh;
+    width: 100%;
+    background-color: #050300; 
+
+}
+.Photo {
+    max-width: 90%;
+    height: 80vh;
+    object-fit: cover;
+    width: 90%;
+    margin-left: 10%;
+    object-position: center;
+  }
+  .text{
+    margin-top: -35%;
+    margin-left: 13%;
+    position: absolute;
+    
+  }
+  .logistics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 294px;
+    height: 23px;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .color{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .logistics h1{
+    width: 246px;
+    height: 17px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .logistics h2{
+    width: 404px;
+    height: 213px;
+    position: absolute;
+    top: -4px;
+   
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+  
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    
+  }
+  .logistics h3{
+    width: 571px;
+    height: 72px;
+    top: 250px;
+    position: absolute;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
+  .explore {
+    cursor: pointer;
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    left: 0px;
+    top: 365px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rot {
+    position: absolute;
+    width: 68px;
+    height: 105.09px;
+    left: 140.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rot {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .explore:hover .rot {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .explore h1{
+    width: 99px;
+    height: 22px;
+    margin-left: 20%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }
+  .car{
+    width: 90%;
+    height: 140vh;
+    border: 1px solid transparent;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  .car h1{
+    width: 414px;
+    height: 41px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .car p{
+    width: 664px;
+    height: 95px;
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #666C89;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .hee{
+    height: 20vh;
+    width: 40%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #091242;
+    margin-top: 3%;
+  }
+  .hee p{
+    width: 554px;
+    height: 72px;
+    margin-top: 8%;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .car h3{
+    width: 609px;
+    height: 82px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 41px;
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .car h4{
+    width: 664px;
+    height: 95px;
+    margin-top: -2%;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #666C89;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .cargo{
+    width: 40%;
+    height: 40vh;
+    border: 1px solid transparent;
+  }
+  .rgo{
+    width: 100%;
+    height: 40vh;
+  }
+  .car h5{
+    width: 664px;
+    height: 168px;
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #666C89;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .side{
+    height: 100vh;
+    width: 40%;
+    margin-top: -70%;
+    margin-left: 50%;
+    border: 1px solid transparent;
+  }
+
+  .boy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 46px 42px;
+    gap: 10px;
+    margin-left: 15%;
+    width: 340px;
+    height: 224px;
+
+    background: #F5F5F5;
+    border: 1px solid #EEEEEE;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .boy h1{
+    width: 119px;
+    height: 26px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -12%;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .one{
+    width: 80%;
+    height: 4vh;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .one h1{
+    
+    position: absolute;
+    width: 405px;
+    height: 41px;
+    margin-top: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #737aa1;
+  }
+  .two{
+    width: 80%;
+    height: 4vh;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .two h1{
+    position: absolute;
+    width: 405px;
+    height: 41px;
+    margin-top: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #737aa1;
+  }
+  .three{
+    width: 80%;
+    height: 4vh;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .three h1{
+    position: absolute;
+    width: 405px;
+    height: 41px;
+    margin-top: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #737aa1;
+  }
+  .four{
+    width: 80%;
+    height: 4vh;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .four h1{
+    position: absolute;
+    width: 405px;
+    height: 41px;
+    margin-top: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #737aa1;
+  }
+  .five{
+    width: 80%;
+    height: 4vh;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .five h1{
+    position: absolute;
+    width: 405px;
+    height: 41px;
+    margin-top: 8px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #737aa1;
+  }
+  .girl{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 46px 42px;
+    gap: 10px;
+    margin-left: 60%;
+    margin-top: -30%;
+    width: 240px;
+    height: 124px;
+
+    background: #091242;
+    border: 1px solid #EEEEEE;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .girl h1{
+    width: 235px;
+    height: 26px;
+    margin-top: -8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .girl p{
+    width: 256px;
+    height: 84px;
+    margin-top: -5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130.5%;
+    /* or 21px */
+
+
+    color: #666C89;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .explores {
+    cursor: pointer;
+    position: absolute;
+    width: 134px;
+    border-radius: 8px;
+    height: 40px;
+    margin-left: 65%;
+    margin-top: 43%;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rots {
+    position: absolute;
+    width: 68px;
+    height: 105.09px;
+    left: 140.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rots {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .explores:hover .rot {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .explores h1{
+    width: 99px;
+    height: 22px;
+    margin-left: 20%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }

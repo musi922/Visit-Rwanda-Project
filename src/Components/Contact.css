@@ -1,0 +1,780 @@
+.newsi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    gap: 300px;
+  }
+  .menus-bar {
+    position: relative;
+    z-index: 1; /* make sure the .menus-bar is on top of the overlay */
+    background-color: rgba(0, 1, 8, 0.25);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .menus-bar::before {
+    content: "";
+    position: absolute;
+    z-index: -1; /* put the overlay behind the .menus-bar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/hhh.png');
+    background-size: cover;
+    opacity: 0.5; /* semi-transparent black overlay */
+  }
+  
+  .submenus {
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-left: 4%;
+    margin-top: 6px;
+  }
+  
+  .submenus h1 {
+    width: 44px;
+    height: 22px;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+    color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Abouts h1 {
+    width: 80px;
+  }
+  
+  .contacts h1 {
+    width: 80px;
+  }
+  
+  .submenus h1:hover {
+    transform: translateX(-10%); /* center the box horizontally */
+    width: 80px;
+    height: 30px;
+    background-color: #FFB82B;
+    border-radius: 5px;
+    color: blue;
+    text-align: center;
+  }
+  
+  .nextmenus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin-top: 3px;
+    gap: 50px;
+    width: 416.99px;
+    height: 63px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #f1f0f0;
+  }
+  
+  .appoints {
+    border: 1px solid none;
+    height: 4vh;
+    width: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  
+  .bodysi {
+    height: 80vh;
+  width: 100%;
+  background-color: #F4F4F4;
+  }
+  
+  .Photos {
+    max-width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    margin-top: -4.4%;
+    object-position: center;
+  }
+  
+  .textss{
+    margin-top: -35%;
+    margin-left: 13%;
+    position: absolute;
+    
+  }
+  .logisticss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 264px;
+    height: 23px;
+    top: 140px;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .logi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 164px;
+    height: 23px;
+    margin-top: -6%;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .colors{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .colo{
+    width: 12px;
+    position: absolute;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: 9px;
+  }
+  .logisticss h1{
+    width: 246px;
+    height: 17px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .logi h1{
+    width: 246px;
+    height: 17px;
+    margin-left: 33%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #d6d3d3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .textss h2{
+    width: 504px;
+    height: 213px;
+    position: absolute;
+    top: 164px;
+   
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+  
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    
+  }
+  .logisticss h2{
+    width: 343px;
+height: 41px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .logi h3{
+    width: 571px;
+    height: 72px;
+    top: 250px;
+    position: absolute;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
+.faq{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid transparent;
+    background-color: 
+    #F4F4F4;
+}
+.faq h1{
+    width: 308px;
+height: 82px;
+margin-top: 10%;
+margin-left: 15%;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+
+color: #1C1F35;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.faq h2{
+width: 834px;
+height: 84px;
+position: absolute;
+
+margin-top: 350%;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #1C1F35;
+}
+.faq p{
+    width: 569px;
+    height: 72px;
+    position: absolute;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+    margin-top: 400%;
+
+    color: #666C89;
+    }
+    .faq h3{
+        position: absolute;
+        width: 419px;
+        height: 24px;
+        left: 0px;
+        top: 278px;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+color: #1C1F35;
+    }
+    .faq h4{
+        position: absolute;
+        width: 419px;
+        height: 24px;
+        left: 0px;
+        top: 308px;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+color: #1C1F35;
+    }
+    .faq h5{
+        position: absolute;
+        width: 419px;
+        height: 24px;
+        left: 0px;
+        top: 338px;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+color: #1C1F35;
+    }
+    .level{
+        width: 30%;
+        position: absolute;
+        height: 50vh;
+        border: 1px solid transparent;
+        margin-left:65%;
+        margin-top: 10%;
+    }
+    .lev{
+        width: 20%;
+        position: absolute;
+        height: 30vh;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        margin-left:57%;
+        background-color: #091242;
+        margin-top: 16%;
+    }
+    .lev h1{
+        width: 324px;
+        height: 48px;
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .lev h3{
+        width: 153px;
+        height: 44px;
+        margin-top: -45%;
+        margin-left: 40%;
+        font-family: 'Krub';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 135.02%;
+        /* or 22px */
+
+
+        color: #c3c2c2;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        
+    }
+.logis{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+    margin-left: 15%;
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    margin-top: 6%;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .logis h1{
+    width: 246px;
+    height: 17px;
+    margin-left: 33%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #d6d3d3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .colos{
+    width: 12px;
+    position: absolute;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: 9px;
+  }
+
+.now{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 101px 98px;
+gap: 10px;
+
+position: absolute;
+width: 654px;
+height: 700px;
+left: 343px;
+margin-top: 5%;
+
+background: #091242;
+}
+.now h2{
+    width: 343px;
+    height: 41px;
+    margin-top: -20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.now p{
+    width: 717px;
+height: 48px;
+margin-top: -2.4%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.iyi{
+    width: 854px;
+    display: flex;
+    flex-direction: row;
+    gap: 245px;
+    margin-top: 8%;
+    margin-left: 18%;
+    position: absolute;
+}
+.iyo{
+    width: 854px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-top: 15%;
+    margin-left: 18%;
+    position: absolute;
+}
+.iyo h1{
+    position: absolute;
+width: 151px;
+height: 19px;
+margin-top: 4%;
+
+margin-left: -4%;
+
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 135.02%;
+/* identical to box height, or 19px */
+
+
+color: #FFFFFF;
+}
+.iyo h2{
+    position: absolute;
+width: 151px;
+height: 19px;
+margin-top: 4%;
+margin-left: 32%;
+
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 135.02%;
+/* identical to box height, or 19px */
+
+
+color: #FFFFFF;
+}
+.iyo h3{
+    position: absolute;
+width: 151px;
+height: 19px;
+margin-top: 4%;
+margin-left: 68%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 135.02%;
+/* identical to box height, or 19px */
+
+
+color: #FFFFFF;
+}
+.user{
+    width: 834px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    height: 25vh;
+    margin-left: 8%;
+   
+    margin-top: 30%;
+    position: absolute;
+}
+.name{
+    height: 7vh;
+    width: 40%;
+    border: 1.3px solid #E0E0E0;
+    background-color: #091242;
+    color: white;
+    border-radius: 5px;
+    padding-left: 29px;
+}
+.email{
+    height: 7vh;
+    width: 40%;
+    border: 1.3px solid #E0E0E0;
+    background-color: #091242;
+    border-radius: 5px;
+    padding-left: 29px;
+    color: white;
+}
+.users{
+    width: 834px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    height: 25vh;
+   margin-left: 8%;
+    margin-top: 42%;
+    position: absolute;
+}
+.names{
+    height: 7vh;
+    width: 40%;
+    border: 1.3px solid #E0E0E0;
+    background-color: #091242;
+    color: white;
+    border-radius: 5px;
+    padding-left: 29px;
+}
+.emails{
+    height: 7vh;
+    width: 40%;
+    border: 1.3px solid #E0E0E0;
+    background-color: #091242;
+    border-radius: 5px;
+    padding-left: 29px;
+    color: white;
+}
+.message{
+    height: 22vh;
+    width: 85%;
+    border: 1.3px solid #E0E0E0;
+    background-color: #091242;
+    border-radius: 5px;
+    padding-left: 29px;
+    margin-left: -2%;
+    color: white;
+    margin-top: 54%;
+    position: absolute;
+}
+.explores {
+    cursor: pointer;
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    margin-left: 40%;
+    top: 785px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rots {
+    position: absolute;
+    width: 68px;
+    height: 105.09px;
+    left: 140.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rots {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .explores:hover .rots {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .explores h1{
+    width: 169px;
+    height: 22px;
+    margin-left: 14%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }
+.exps {
+    cursor: pointer;
+    position: absolute;
+    width: 144px;
+    height: 45px;
+    margin-left: 4%;
+    margin-top: 84%;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rom {
+    position: absolute;
+    width: 38px;
+    height: 55.09px;
+    left: 120.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rom {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .exps:hover .rom {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .exps h1{
+    width: 169px;
+    height: 22px;
+    margin-left:8%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }
+ .sif{
+  position: absolute;
+  margin-top: 68%;
+ }
+  

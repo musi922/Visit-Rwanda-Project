@@ -1,0 +1,914 @@
+.menus-bar {
+    position: relative;
+    z-index: 1; /* make sure the .menus-bar is on top of the overlay */
+    background-color: rgba(0, 1, 8, 0.25);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32%;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .menus-bar::before {
+    content: "";
+    position: absolute;
+    z-index: -1; /* put the overlay behind the .menus-bar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/hhh.png');
+    background-size: cover;
+    opacity: 0.5; /* semi-transparent black overlay */
+  }
+  
+  .submenus {
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+    margin-left: 4%;
+    margin-top: 6px;
+  }
+  
+  .submenus h1 {
+    width: 44px;
+    height: 22px;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+    color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Abouts h1 {
+    width: 80px;
+  }
+  
+  .contacts h1 {
+    width: 80px;
+  }
+  
+  .submenus h1:hover {
+    transform: translateX(-10%); /* center the box horizontally */
+    width: 80px;
+    height: 30px;
+    background-color: #FFB82B;
+    border-radius: 5px;
+    color: blue;
+    text-align: center;
+  }
+  
+  .nextmenus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin-top: 3px;
+    gap: 50px;
+    width: 416.99px;
+    height: 63px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #f1f0f0;
+  }
+  
+  .appoints {
+    border: 1px solid none;
+    height: 4vh;
+    width: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  
+  .bodys {
+    height: 130vh;
+  width: 100%;
+  background-color: #F4F4F4;
+  }
+  
+  .Photos {
+    max-width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    margin-top: -4.4%;
+    object-position: center;
+  }
+  
+  .texts{
+    margin-top: -35%;
+    margin-left: 13%;
+    position: absolute;
+    
+  }
+  .logisticss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 264px;
+    height: 23px;
+    top: 140px;
+    
+
+    background: rgba(4, 28, 55, 0.5);
+  }
+  .colors{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .logisticss h1{
+    width: 246px;
+    height: 17px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .texts h2{
+    width: 404px;
+    height: 213px;
+    position: absolute;
+    top: 164px;
+   
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+  
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    
+  }
+  .logisticss h3{
+    width: 571px;
+    height: 72px;
+    top: 250px;
+    position: absolute;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
+  .explores {
+    cursor: pointer;
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    left: 0px;
+    top: 365px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    overflow: hidden; /* Add this line to hide content that exceeds the div */
+  }
+  
+  .rots {
+    position: absolute;
+    width: 68px;
+    height: 105.09px;
+    left: 140.27px;
+    border-radius: 100%;
+    top: 14px;
+    background: #FFFFFF;
+    transform: rotate(23.72deg);
+    z-index: 1; /* Add this line to make sure the .rot element is above other content */
+  }
+  .rots {
+    /* Other CSS rules */
+   
+    transition: transform 0.5s ease-in-out; /* Add this line to animate the transition */
+  }
+  
+  .explores:hover .rot {
+    transform: rotate(23.72deg) translateX(-20%);
+  }
+  .explores h1{
+    width: 99px;
+    height: 22px;
+    margin-left: 20%;
+    margin-top: 8%;
+   
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+
+    color: #23212A;
+
+  }
+  .abouts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 33px;
+
+    position: absolute;
+    width: 1200px;
+    height: 311px;
+    margin-left: 13%;
+    top: 695px;
+
+
+  }
+  .rics{
+    
+    width: 96px;
+    height: 23px;
+    margin-left: 6%;
+    background: rgba(61, 83, 109, 0.5);
+  }
+  .colorss{
+    width: 12px;
+    height: 24px;
+    background-color: #FFB82B;
+    margin-left: -9px;
+  }
+  .rics h1{
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    margin-left: 6px;
+    top: -4px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+  }
+  .abouts h2{
+    width: 397px;
+    height: 41px;
+    margin-left: 20%;
+    margin-top: -2%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #1C1F35;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+  }
+  .safes{
+    position: absolute;
+    width: 39.32px;
+    height: 43.38px;
+    margin-left: 15%;
+    margin-top: 3%;
+
+  }
+  .safess{
+    position: absolute;
+    width: 49.32px;
+    height: 53.38px;
+    margin-left: 14%;
+    margin-top: 20%;
+
+  }
+
+  .datas{
+ 
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 9%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .safee{
+    position: absolute;
+    width: 39.32px;
+    height: 33.38px;
+    margin-left: 42%;
+    margin-top: -16%;
+
+  }
+  .datas h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .datas p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  
+  .bis{
+   
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 8%;
+    margin-top: -0.4%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .bis h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .bis p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  
+  .trains{
+  
+    border-top: none;
+    border-right: none;
+    margin-left: 78%;
+    margin-top: -12%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .trains h1{
+    
+    width: 367px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .trains p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .safeds{
+    position: absolute;
+    width: 49.32px;
+    height: 83.38px;
+    margin-left: 8%;
+    margin-top: -16%;
+
+  }
+  .safas{
+    position: absolute;
+    width: 39.32px;
+    height: 33.38px;
+    margin-left: 50%;
+    margin-top: 20%;
+
+  }
+  .safasi{
+    position: absolute;
+    width: 39.32px;
+    height: 33.38px;
+    margin-left: 84%;
+    margin-top: 20%;
+
+  }
+  .conss{
+
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .conss h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .conss p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .consi{
+
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .consi h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .consi p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .consis{
+
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 78%;
+    margin-top: -13%;
+    width: 295px;
+    height: 115px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .consis h1{
+    
+    width: 267px;
+    height: 30px;
+    margin-left: 3%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .consis p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .how{
+    margin-top: 2%;
+    width: 100%;
+    height: 35vh;
+  }
+  .how h1{
+  width: 583px;
+  height: 41px;
+  margin-top: 3%;
+  margin-left: 8%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #1C1F35;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+  .how p{
+    width: 1200px;
+height: 238px;
+margin-left: 15%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .ben h1{
+    
+  width: 406px;
+  height: 41px;
+  margin-left: 15%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+
+  color: #1C1F35;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  .ben p{
+    width: 442px;
+height: 72px;
+margin-left: 15%;
+margin-top: 2%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .ben h2{
+    position: absolute;
+width: 418px;
+height: 24px;
+margin-top:-1.5%;
+margin-left: 15%;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #1C1F35;
+  }
+
+.tab{
+  margin-left: 50%;
+  margin-top: -18%;
+  height: 35vh;
+  width: 40%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.ines{
+  height: 35vh;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  
+}
+.vid{
+  height: 35vh;
+  width: 70%;
+ 
+  margin-left: -88%;
+  margin-top: 2%;
+  
+}
+.work{
+  
+    height: 35vh;
+    width: 40%;
+    border: 1px solid #1C1F35;
+    border-radius: 10px;
+    margin-top: -15%;
+    position: absolute;
+   
+    
+
+}
+.work h1{
+  width: 220px;
+height: 41px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+
+color: #1C1F35;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.work p{
+  width: 490px;
+height: 216px;
+
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.joa{
+  margin-top: 30%;
+  position: absolute;
+}
