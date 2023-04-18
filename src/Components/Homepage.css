@@ -113,9 +113,9 @@
   .logistics h1{
     margin-top: -120%;
     position: absolute;
-    width: 494px;
+    width: 294px;
     height: 83px;
-    margin-left: 5%;
+    margin-left: 2%;
     
   }
   .logs{
@@ -127,7 +127,7 @@
     font-size: 4px;
     position: absolute;
   }
-
+  
   
   
 }
