@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./Homepage.css"
 import Nav from './Nav'
 import { FiInstagram } from "react-icons/fi"
@@ -18,6 +18,7 @@ import dash from "../images/dash.jpg";
 import dd from "../images/dd.jpeg";
 import science from "../images/science.jpg";
 import why from "../images/why.jpg";
+import { FaBars, FaTimes} from "react-icons/fa"
 
 
 
@@ -26,12 +27,20 @@ import Newscard from './Newscard'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
+
  export const Homepage = () => {
+  const navRef = useRef();
+
+  const Shownavbar = () => {
+    navRef.current.classList.toggle("responsive_submenu");
+  }
   return (
     <div>
+      <div className='nav'>
       <Nav/>
+      </div>
       <div className='menu-bar'>
-        <div className='submenu'>
+        <div className='submenu' ref={navRef}>
         <div className='home'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -61,8 +70,13 @@ import Footer from './Footer'
             <div className='appoint'>
               Request appoint
             </div>
+            
 
         </div>
+        
+            <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
+            <FaBars/>
+            </button>
 
       </div>
       <div className='body'>
@@ -167,7 +181,9 @@ import Footer from './Footer'
        
       
         <div>
+          
           <Newscard imgs={amer} dates="08" day="Thursday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" />
+      
         </div>
   
 
