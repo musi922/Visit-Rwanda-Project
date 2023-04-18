@@ -31,10 +31,8 @@
     top: 0;
     left: 0;
     height: 50%;
-    width: 95.6%;
+    width: 100%;
     align-items: center;
-    display: flex;
-    
     justify-content: center;
   
     background-color: #070d29;
@@ -51,37 +49,40 @@
     display: flex;
     position: absolute;
     margin-left: 22%;
-    margin-top: -13%;
+    margin-top: -22%;
+  }
+  h1{
+    color: red;
   }
   .Services h1{
     display: flex;
     position: absolute;
     margin-left: 4%;
-    margin-top: -5%;
+    margin-top: -13%;
   }
   .About h1{
     display: flex;
     position: absolute;
-    margin-left: -14%;
-    margin-top: 5%;
+    margin-left: -14.5%;
+    margin-top: -4%;
   }
   .projects h1{
     display: flex;
     position: absolute;
-    margin-left: -32%;
-    margin-top: 15%;
+    margin-left: -32.5%;
+    margin-top: 6%;
   }
   .contact h1{
     display: flex;
     position: absolute;
     margin-left: -52%;
-    margin-top: 25%;
+    margin-top: 16%;
   }
   .Careers h1{
     display: flex;
     position: absolute;
     margin-left: -70%;
-    margin-top: 35%;
+    margin-top: 25%;
   }
   
   .responsive_submenu{
@@ -101,7 +102,35 @@
   .appoint{
     display: none;
   }
+  
+  .color{
+    margin-top: -122%;
+    
+    position: absolute;
+    margin-left: -12%;
+  }
+  
+  .logistics h1{
+    margin-top: -120%;
+    position: absolute;
+    width: 294px;
+    height: 83px;
+    margin-left: 5%;
+    
+  }
+  .logs{
+    margin-top: -122%;
+    position: absolute;
+  }
+  .logistics h2{
+    margin-top: -21%;
+    font-size: 4px;
+    position: absolute;
+  }
+  
+  
 }
+
 
 .menu-bar{
     background-color: #070d29;
@@ -208,7 +237,7 @@
     position: absolute;
     
   }
-  .logistics{
+  .logs{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -221,6 +250,18 @@
     
 
     background: rgba(4, 28, 55, 0.5);
+  }
+  .logistics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 294px;
+    height: 23px;
+    background-color: none;
   }
   .color{
     width: 12px;

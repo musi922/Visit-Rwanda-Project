@@ -19,6 +19,7 @@ import dd from "../images/dd.jpeg";
 import science from "../images/science.jpg";
 import why from "../images/why.jpg";
 import { FaBars, FaTimes} from "react-icons/fa"
+import { useMediaQuery } from 'react-responsive';
 
 
 
@@ -30,6 +31,9 @@ import Footer from './Footer'
 
  export const Homepage = () => {
   const navRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 1024px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+
 
   const Shownavbar = () => {
     navRef.current.classList.toggle("responsive_submenu");
@@ -80,12 +84,13 @@ import Footer from './Footer'
 
       </div>
       <div className='body'>
-        <img src={Photo} className='Photo'/>
+        <img src={Photo} className='Photo' style={{width: isSmallScreen ? '80%':'',}}/>
         <div className='text'>
-          <div className='logistics'>
+          <div className='logistics' style={{backgroundColor: "transparent"}}>
+            <div className='logs'></div>
             <div className='color'></div>
             <h1>Logistics & Supply Chain Solutions</h1>
-            <h2>Your Gateway to any Data in the World</h2>
+            <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
             <h3>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
             <div className='explos'>
