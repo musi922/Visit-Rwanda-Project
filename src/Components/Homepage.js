@@ -89,7 +89,7 @@ import Footer from './Footer'
           <div className='logistics' style={{backgroundColor: "transparent"}}>
             <div className='logs'></div>
             <div className='color'></div>
-            <h1>Logistics & Supply Chain Solutions</h1>
+            <h1>Logistics & Supply Chain </h1>
             <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
             <h3>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
