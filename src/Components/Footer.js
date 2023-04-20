@@ -7,9 +7,13 @@ import { Link } from 'react-router-dom';
 import { AiFillFacebook } from "react-icons/ai"
 import { AiOutlineTwitter } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
+import { useMediaQuery } from 'react-responsive';
 
 
 const Footer = () => {
+  
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 1024px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
   return (
     <div>
       <div>
@@ -17,7 +21,7 @@ const Footer = () => {
             <div className='div'>
             </div>
             <div className='divs'>
-            <img src={Frame} style={{marginTop:"6%", marginLeft:"4%"}}/> 
+            <img src={Frame} style={{marginTop:"6%", marginLeft:"4%" , }} /> 
             </div>
             <div className='dir'>
                  <h1>Pages</h1>
@@ -27,12 +31,12 @@ const Footer = () => {
         </div>
         <div className='black'>
         
-       <p>Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
+       <p style={{display: isSmallScreen? "none":""}}>Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
        <div className='aha'>
-        <img src={ayu} />
+        <img src={ayu} style={{marginLeft: isSmallScreen? "-425%":"", width: isSmallScreen? "33px":"", marginTop :isSmallScreen?"92%":""}}/>
        </div>
        <div className='ahas'>
-        <img src={aye} />
+        <img src={aye} style={{marginLeft: isSmallScreen? "-425%":"", width: isSmallScreen? "33px":""}}/>
        </div>
        <div className='emai'>
         <h1>Email<br></br>
@@ -70,10 +74,10 @@ IA group@gmail.com</h1>
         </div>
        </div>
        <div className='copy'>
-        <h1>&copy; {2023} Intelligence Analytics group. All Rights Reserved</h1>
+        <h1 style={{marginTop: isSmallScreen? "70%":"",marginLeft: isSmallScreen? "2%":"",fontSize: isSmallScreen? "10px":""}}>&copy; {2023} Intelligence Analytics group. All Rights Reserved</h1>
         <div className='admin'>
-            <h1>Admin</h1>
-            <h2>Terms of use</h2>
+            <h1 style={{marginTop: isSmallScreen? "-30%":"",marginLeft: isSmallScreen? "40%":"",fontSize: isSmallScreen? "10px":""}}>Admin</h1>
+            <h2 style={{marginTop: isSmallScreen? "-9%":"",marginLeft: isSmallScreen? "25%":"",fontSize: isSmallScreen? "10px":""}}>Terms of use</h2>
         </div>
        </div>
        

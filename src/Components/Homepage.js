@@ -89,11 +89,11 @@ import Footer from './Footer'
           <div className='logistics' style={{backgroundColor: "transparent"}}>
             <div className='logs'></div>
             <div className='color'></div>
-            <h1>Logistics & Supply Chain </h1>
+            <h1 style={{color:"white"}}>Logistics & Supply Chain </h1>
             <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
             <h3>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
-            <div className='explos'>
+            <div className='explos' style={{ width: isSmallScreen ? '162px':'', height: isSmallScreen ? '6vh':''}}>
               <div className='rois'></div>
               <p>Explore More</p>
 
@@ -104,68 +104,72 @@ import Footer from './Footer'
           
         </div>
       </div>
-      <div className='about'>
-      <div className='ric'>
+      <div className='about' style={{width: isSmallScreen ? '500px':""}}>
+      <div className='ric' style={{marginLeft: isSmallScreen ? '15%':""}}>
       <div className='colors'></div>
       <h1>What We Do</h1>
       </div>
-      <h2>Safe & Reliable Data Solutions</h2>
-      <img src={Icon} className='safe'/>
-      <img src={icons} className='saf'/>
-      <div className='data'>
-        <h1>Data Management</h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+      <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Safe & Reliable Data Solutions</h2>
+      <img src={Icon} className='safe' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
+      <img src={icons} className='saf' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
+      <div className='data' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '90px':""}}>
+        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Data Management</h1>
+        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>Following the quality of our service thus having gained trust of our many clients.</p>
         <img src={data} className='safe'/>
       </div>
-      <div className='bi'>
+      <div className='bi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>BI & ANALYTICS</h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <img src={Iconbb} className='safed' style={{marginTop: isSmallScreen ? '-45%':"" ,display: isLargeScreen ? "none":""}} />
+        
         
       </div>
-      <div className='train'>
+      <div className='train'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>
         Support And Training
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={Iconbb} className='safed'/>
+        <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-45%':"",display: isLargeScreen ? "none":""}}/>
+        
       </div>
-      <div className='cons'>
+      <div className='cons'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>
         Data Dashboards
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-45%':"",marginLeft: isLargeScreen ? '-13%':""}}/>
 
       </div>
       
       </div>
-      <div className='tot'>
-      <div className='why'>
+      <div className='tot' style={{marginTop: isSmallScreen ?  '270%':''}}>
+      <div className='why' style={{marginTop: isSmallScreen ?  '8%':'',marginLeft: isSmallScreen ?  '4%':''}}>
        
        </div>
-       <div className='whys'>
+       <div className='whys' style={{marginTop: isSmallScreen ?  '8%':'',marginLeft: isSmallScreen ?  '4%':''}}>
         
        </div>
       </div>
-      <div className='us'>
-      <div className='ricy'>
-            <div className='color'></div>
-            <h1>Why us</h1>
+      <div className='us' style={{marginTop: isSmallScreen ?  '-18%':'',width: isSmallScreen ?  '80%':'', marginLeft: isSmallScreen ?  '9%':''}}>
+      <div className='ricy' style={{display: isSmallScreen ?  'none':''}}>
+            <div className='colo'style={{ display: isSmallScreen ?  'none':'', marginLeft: isLargeScreen ?  '-3px':''}}></div>
+            <h1 style={{display: isSmallScreen ? "none" : "", marginTop: isLargeScreen ?  '14px':'',marginLeft: isLargeScreen ?  '13px':''}}>Why us</h1>
         </div>
-        <p>We provide full range Data Cleansing and Intergration Services</p>
-        <h2>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. 
+        <p style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '290px':"", marginTop: isSmallScreen ? '4%':"" , marginLeft: isSmallScreen ? '15%':""}}>We provide Data Cleansing and Intergration Services</p>
+        <h2  style={{width: isSmallScreen ?  '98%':'',marginTop: isSmallScreen ?  '-8%':''}}>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. 
 
           Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</h2>
-          <div className='picx'></div>
-          <div className='picy'></div>
-          <div className='come'></div>
-          <h3>We give Support and Training</h3>
+          <div className='picx' style={{display: isSmallScreen ?  'none':'',}}></div>
+          <div className='picy' style={{display: isSmallScreen ?  'none':'',}}></div>
+          <div className='come' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
+          <h3 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":""}}>We give Support and Training</h3>
          
-          <div className='help'></div>
-          <h4>We help in big Data Consulting</h4>
+          <div className='help' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
+          <h4 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":""}}>We help in big Data Consulting</h4>
       </div>
-      <div className='proje'>
-        <h1>IA Rwanda Projects Across the World</h1>
-        <div className='pro'>
+      <div className='proje' style={{marginTop: isSmallScreen ?  '130%':'',}}>
+        <h1 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "-40%":""}}>IA Rwanda Projects Across the World</h1>
+        <div className='pro' style={{display: isSmallScreen ?  'flex':'', flexDirection: isSmallScreen ? "column":"", gap: isSmallScreen? "5px" :""}}>
         <Projectcard img={proj} head="Intelligence Solutions" desc="Warehouse Management"/>
         <Projectcard img={dash} head="Intelligence Solutions" desc="Warehouse Management"/>
          <Projectcard img={science} head="Intelligence Solutions" desc="Warehouse Management"/>
@@ -173,13 +177,13 @@ import Footer from './Footer'
         </div>
       </div>
       
-      <div className='wapi'>
-      <div className='rico'>
+      <div className='wapi' >
+      <div className='rico' style={{marginTop: isSmallScreen ?  '-20%':'',}}>
             <div className='coloi'></div>
             <h1>Our Blog</h1>
            
         </div>
-        <h2>Our Latest News</h2>
+        <h2 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "40%":"",marginTop: isSmallScreen ?  '-10%':'',}}>Our Latest News</h2>
        
          <div className='any'>
 
@@ -203,7 +207,7 @@ import Footer from './Footer'
         </div> 
       
       </div>
-      <div className='yego'>
+      <div className='yego'style={{marginTop: isSmallScreen ?  '1%':''}}>
         <Footer/>
       </div>
     </div>
