@@ -31,7 +31,7 @@ import Footer from './Footer'
 
  export const Homepage = () => {
   const navRef = useRef();
-  const isSmallScreen = useMediaQuery({ query: '(max-width: 1024px)' });
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 550px)' });
   const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
 
 
@@ -91,7 +91,7 @@ import Footer from './Footer'
             <div className='color'></div>
             <h1 style={{color:"white"}}>Logistics & Supply Chain </h1>
             <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
-            <h3>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
+            <h3 style={{ display: isSmallScreen ? 'none' : '' , }}>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
             <div className='explos' style={{ width: isSmallScreen ? '162px':'', height: isSmallScreen ? '6vh':''}}>
               <div className='rois'></div>
@@ -104,7 +104,7 @@ import Footer from './Footer'
           
         </div>
       </div>
-      <div className='about' style={{width: isSmallScreen ? '500px':""}}>
+      <div className='about' style={{width: isSmallScreen ? '250px':""}}>
       <div className='ric' style={{marginLeft: isSmallScreen ? '15%':""}}>
       <div className='colors'></div>
       <h1>What We Do</h1>
@@ -112,15 +112,15 @@ import Footer from './Footer'
       <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Safe & Reliable Data Solutions</h2>
       <img src={Icon} className='safe' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
       <img src={icons} className='saf' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
-      <div className='data' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '90px':""}}>
+      <div className='data' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '100px':""}}>
         <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Data Management</h1>
         <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={data} className='safe'/>
+        <img src={data} className='safe' style={{marginTop: isSmallScreen ? '10%':"",marginLeft: isLargeScreen ? '-13%':"",height: isSmallScreen ? '6vh':""}}/>
       </div>
       <div className='bi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>BI & ANALYTICS</h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={Iconbb} className='safed' style={{marginTop: isSmallScreen ? '-45%':"" ,display: isLargeScreen ? "none":""}} />
+        <img src={Iconbb} className='safed' style={{marginTop: isSmallScreen ? '-85%':"" ,display: isLargeScreen ? "none":""}} />
         
         
       </div>
@@ -129,7 +129,7 @@ import Footer from './Footer'
         Support And Training
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-45%':"",display: isLargeScreen ? "none":""}}/>
+        <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-85%':"",display: isLargeScreen ? "none":""}}/>
         
       </div>
       <div className='cons'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
@@ -137,7 +137,7 @@ import Footer from './Footer'
         Data Dashboards
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-45%':"",marginLeft: isLargeScreen ? '-13%':""}}/>
+        <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-85%':"",marginLeft: isLargeScreen ? '-13%':""}}/>
 
       </div>
       
@@ -162,13 +162,13 @@ import Footer from './Footer'
           <div className='picx' style={{display: isSmallScreen ?  'none':'',}}></div>
           <div className='picy' style={{display: isSmallScreen ?  'none':'',}}></div>
           <div className='come' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
-          <h3 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":""}}>We give Support and Training</h3>
+          <h3 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":""}}>We give Support and Training</h3>
          
           <div className='help' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
-          <h4 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":""}}>We help in big Data Consulting</h4>
+          <h4 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":""}}>We help in big Data Consulting</h4>
       </div>
       <div className='proje' style={{marginTop: isSmallScreen ?  '130%':'',}}>
-        <h1 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "-40%":""}}>IA Rwanda Projects Across the World</h1>
+        <h1 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "-40%":"", width: isSmallScreen? "50px":""}}>IA Rwanda Projects Across the World</h1>
         <div className='pro' style={{display: isSmallScreen ?  'flex':'', flexDirection: isSmallScreen ? "column":"", gap: isSmallScreen? "5px" :"", with: isLargeScreen? "100%":""}}>
         <Projectcard img={proj} head="Intelligence Solutions" desc="Warehouse Management"/>
         <Projectcard img={dash} head="Intelligence Solutions" desc="Warehouse Management"/>

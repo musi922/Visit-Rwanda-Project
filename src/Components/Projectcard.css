@@ -1,6 +1,10 @@
 body{
   overflow-x: hidden;
 }
+@media only screen and (max-width: 1024px){
+  body{
+    overflow-x: auto;
+  }}
 .pic{
     margin-left: 5%;
     width: 320.17px;

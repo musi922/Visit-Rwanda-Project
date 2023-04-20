@@ -21,7 +21,7 @@ const Footer = () => {
             <div className='div'>
             </div>
             <div className='divs'>
-            <img src={Frame} style={{marginTop:"6%", marginLeft:"4%" , }} /> 
+            <img src={Frame} style={{marginTop:"6%", marginLeft:"-2%" , }} /> 
             </div>
             <div className='dir' style={{display: isSmallScreen ? "none":""}}>
                  <h1>Pages</h1>
@@ -74,10 +74,10 @@ IA group@gmail.com</h1>
         </div>
        </div>
        <div className='copy'>
-        <h1 style={{marginTop: isSmallScreen? "70%":"",marginLeft: isSmallScreen? "2%":"",fontSize: isSmallScreen? "10px":""}}>&copy; {2023} Intelligence Analytics group. All Rights Reserved</h1>
+        <h1 style={{marginTop: isSmallScreen? "70%":"",marginLeft: isSmallScreen? "2%":"",fontSize: isSmallScreen? "10px":"",width: isSmallScreen ? "250px":""}}>&copy; {2023} Intelligence Analytics group. All Rights Reserved</h1>
         <div className='admin'>
-            <h1 style={{marginTop: isSmallScreen? "-30%":"",marginLeft: isSmallScreen? "40%":"",fontSize: isSmallScreen? "10px":""}}>Admin</h1>
-            <h2 style={{marginTop: isSmallScreen? "-9%":"",marginLeft: isSmallScreen? "25%":"",fontSize: isSmallScreen? "10px":""}}>Terms of use</h2>
+            <h1 style={{marginTop: isSmallScreen? "-30%":"",marginLeft: isSmallScreen? "40%":"",fontSize: isSmallScreen? "10px":"", width: isSmallScreen?"50px":""}}>Admin</h1>
+            <h2 style={{marginTop: isSmallScreen? "-9%":"",marginLeft: isSmallScreen? "25%":"",fontSize: isSmallScreen? "10px":"", width: isSmallScreen?"57px":""}}>Terms of use</h2>
         </div>
        </div>
        

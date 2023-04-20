@@ -1,6 +1,10 @@
 body{
     overflow-x: hidden;
 }
+@media only screen and (max-width: 1024px){
+    body{
+      overflow-x: auto;
+    }}
 .top-nav{
     background-color: #091242;
     height: 8vh;
