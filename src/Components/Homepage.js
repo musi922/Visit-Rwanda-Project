@@ -169,7 +169,7 @@ import Footer from './Footer'
       </div>
       <div className='proje' style={{marginTop: isSmallScreen ?  '130%':'',}}>
         <h1 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "-40%":""}}>IA Rwanda Projects Across the World</h1>
-        <div className='pro' style={{display: isSmallScreen ?  'flex':'', flexDirection: isSmallScreen ? "column":"", gap: isSmallScreen? "5px" :""}}>
+        <div className='pro' style={{display: isSmallScreen ?  'flex':'', flexDirection: isSmallScreen ? "column":"", gap: isSmallScreen? "5px" :"", with: isLargeScreen? "100%":""}}>
         <Projectcard img={proj} head="Intelligence Solutions" desc="Warehouse Management"/>
         <Projectcard img={dash} head="Intelligence Solutions" desc="Warehouse Management"/>
          <Projectcard img={science} head="Intelligence Solutions" desc="Warehouse Management"/>
