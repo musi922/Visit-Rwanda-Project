@@ -73,7 +73,7 @@ const Services = () => {
 
 
       </div>
-      <div className='bodys' style={{height: isSmallScreen ? '230vh':""}}>
+      <div className='bodys' style={{height: isSmallScreen ? '240vh':""}}>
         <img src={hhh} className='Photos' style={{width: isSmallScreen ? '100%':'',}}/>
         <div className='texts' style={{marginTop: isSmallScreen ? '-90%':'',}}>
           <div className='logisticss'>
@@ -145,7 +145,7 @@ Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihi
 </p>
       </div>
       <div className='ben' style={{marginTop: isSmallScreen ?  '30%':''}}>
-        <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>Benefits of Our Services</h1>
+        <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>Benefits of Our Services</h1>
         <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '380px':''}}>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Clearance and compliance service</h2><br></br><br></br>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Saving Time to Deal with commodo iaculis</h2><br></br><br></br>
