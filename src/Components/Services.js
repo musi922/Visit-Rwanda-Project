@@ -88,7 +88,7 @@ const Services = () => {
       <div className='abouts' style={{width: isSmallScreen ? '250px':"", marginTop: isSmallScreen ? '-15%':""}}>
       <div className='rics' style={{marginLeft: isSmallScreen ? '15%':"", marginTop: isSmallScreen ? '-25%':""}}>
       <div className='colorss'></div>
-      <h1 style={{marginLeft: isSmallScreen ? '6%':"", marginTop: isSmallScreen ? '-22%':""}}>What We Do</h1>
+      <h1 style={{marginLeft: isSmallScreen ? '6%':"", marginTop: isSmallScreen ? '-22%':"",width: isSmallScreen ?  '250px':''}}>What We Do</h1>
       </div>
       <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Our Data Services</h2>
       <img src={Icon} className='safes' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '4%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
