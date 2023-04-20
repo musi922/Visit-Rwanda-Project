@@ -31,7 +31,7 @@ import Footer from './Footer'
 
  export const Homepage = () => {
   const navRef = useRef();
-  const isSmallScreen = useMediaQuery({ query: '(max-width: 550px)' });
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
   const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
 
 

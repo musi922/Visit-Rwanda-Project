@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{ useRef }from 'react'
 import './Services.css'
 import Nav from './Nav'
 import { FiInstagram } from "react-icons/fi"
@@ -17,14 +17,25 @@ import Iconbb from "../images/Iconbb.png";
 import data from "../images/data.png";
 import { AiOutlineArrowRight } from "react-icons/ai"
 import Footer from './Footer'
+import { FaBars, FaTimes} from "react-icons/fa"
+import { useMediaQuery } from 'react-responsive';
 
 
 const Services = () => {
+  const navRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+
+  const Shownavbar = () => {
+    navRef.current.classList.toggle("responsive_submenu");
+  }
   return (
     <div>
+      <div className='nav'>
       <Nav/>
+      </div>
       <div className='menus-bar'>
-        <div className='submenus'>
+        <div className='submenus' ref={navRef}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -56,63 +67,67 @@ const Services = () => {
             </div>
 
         </div>
+        <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
+            <FaBars/>
+            </button>
+
 
       </div>
-      <div className='bodys'>
-        <img src={hhh} className='Photos'/>
-        <div className='texts'>
+      <div className='bodys' style={{height: isSmallScreen ? '230vh':""}}>
+        <img src={hhh} className='Photos' style={{width: isSmallScreen ? '100%':'',}}/>
+        <div className='texts' style={{marginTop: isSmallScreen ? '-90%':'',}}>
           <div className='logisticss'>
             <div className='colors'></div>
             <h1>Services</h1>
 
           </div>
-          <h2>Our Data Services</h2>
+          <h2 style={{fontSize: isSmallScreen ? '32px' :"", width: isSmallScreen ? '162px' :""}}>Our Data Services</h2>
           
         </div>
       </div>
-      <div className='abouts'>
-      <div className='rics'>
+      <div className='abouts' style={{width: isSmallScreen ? '250px':"", marginTop: isSmallScreen ? '-15%':""}}>
+      <div className='rics' style={{marginLeft: isSmallScreen ? '15%':"", marginTop: isSmallScreen ? '-25%':""}}>
       <div className='colorss'></div>
-      <h1>What We Do</h1>
+      <h1 style={{marginLeft: isSmallScreen ? '6%':"", marginTop: isSmallScreen ? '-22%':""}}>What We Do</h1>
       </div>
-      <h2>Our Data Services</h2>
-      <img src={Icon} className='safes'/>
-      <img src={icons} className='safess'/>
-      <img src={yeah} className='safas'/>
-      <img src={you} className='safasi'/>
-      <div className='datas'>
-        <h1>Data Management</h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={data} className='safee'/>
+      <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Our Data Services</h2>
+      <img src={Icon} className='safes' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '4%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
+      <img src={icons} className='safess' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '74%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
+      <img src={yeah} className='safas' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '144%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
+      <img src={you} className='safasi' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '284%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
+      <div className='datas' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '10px':""}}>
+        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Data Management</h1>
+        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>Following the quality of our service thus having gained trust of our many clients.</p>
+        <img src={data} className='safee'  style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '260%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
       </div>
-      <div className='bis'>
+      <div className='bis' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
         <h1>Data integration</h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
         
       </div>
-      <div className='trains'>
+      <div className='trains' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
         <h1>
         Data cleaning and processing
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={Iconbb} className='safeds'/>
+        <img src={Iconbb} className='safeds' style={{marginLeft: isSmallScreen ? '34%':"", }}/>
           
       </div>
-      <div className='conss'>
+      <div className='conss' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
         <h1>
         Data Dashboards
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
 
       </div>
-      <div className='consi'>
+      <div className='consi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>
         Data analysis
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
 
       </div>
-      <div className='consis'>
+      <div className='consis' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
         <h1>
         Consulting and training
         </h1>
@@ -121,28 +136,28 @@ const Services = () => {
       </div>
       
       </div>
-      <div className='how'>
-        <h1>IA Group Services Decription</h1>
-        <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+      <div className='how' style={{marginTop: isSmallScreen ?  '10%':''}}>
+        <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>IA Group Services Decription</h1>
+        <p style={{fontSize: isSmallScreen ?  '12px':'',marginLeft: isSmallScreen ?  '2%':'', width: isSmallScreen?"380px":""}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
 
 </p>
       </div>
-      <div className='ben'>
-        <h1>Benefits of Our Services</h1>
-        <p>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
-        <h2><AiOutlineArrowRight />  Clearance and compliance service</h2><br></br><br></br>
-        <h2><AiOutlineArrowRight />  Saving Time to Deal with commodo iaculis</h2><br></br><br></br>
-        <h2><AiOutlineArrowRight />  Automate your business elis tristique</h2><br></br>
+      <div className='ben' style={{marginTop: isSmallScreen ?  '30%':''}}>
+        <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>Benefits of Our Services</h1>
+        <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '380px':''}}>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
+        <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Clearance and compliance service</h2><br></br><br></br>
+        <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Saving Time to Deal with commodo iaculis</h2><br></br><br></br>
+        <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Automate your business elis tristique</h2><br></br>
         <div className='tab'>
-          <img src={ines} className='ines'/>
+          <img src={ines} className='ines' style={{marginTop: isSmallScreen ?  '55%':'',marginLeft: isSmallScreen ?  '-102%':'', width: isSmallScreen?"350px":""}}/>
           <div className='vid'>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/mRbeIZKcDyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/mRbeIZKcDyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  style={{marginTop: isSmallScreen ?  '55%':'',marginLeft: isSmallScreen ?  '-22%':'', width: isSmallScreen?"350px":""}}></iframe>
           </div>
-          <div className='work'>
-            <h1>How It Works</h1>
-            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, doloremque laudantium.
+          <div className='work' style={{marginTop: isSmallScreen ?  '40%':'', marginLeft: isSmallScreen ?  '-48%':'', width: isSmallScreen?"380px":""}}>
+            <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>How It Works</h1>
+            <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '380px':'',fontSize: isSmallScreen ?  '14px':'',}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, doloremque laudantium.
 
 Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis.</p>
           </div>
@@ -150,7 +165,7 @@ Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolo
         </div>
  
       </div>
-      <div className='joa'>
+      <div className='joa' style={{marginTop: isSmallScreen ?  '200%':'',width: isSmallScreen ?  '380px':'', marginLeft: isSmallScreen ?  '10px':''}}>
       <Footer/>
       </div>
 

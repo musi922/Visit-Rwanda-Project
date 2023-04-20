@@ -3,7 +3,7 @@ body{
   overflow-x: hidden;
   
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 767px) {
   .nav {
     display: none;
   }
@@ -34,7 +34,7 @@ body{
   
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 767px){
   body{
     overflow-x: hidden;
   }
