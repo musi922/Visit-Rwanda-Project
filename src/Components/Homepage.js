@@ -107,7 +107,7 @@ import Footer from './Footer'
       <div className='about' style={{width: isSmallScreen ? '250px':""}}>
       <div className='ric' style={{marginLeft: isSmallScreen ? '15%':""}}>
       <div className='colors'></div>
-      <h1>What We Do</h1>
+      <h1 style={{width: isSmallScreen ?  '250px':''}}>What We Do</h1>
       </div>
       <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Safe & Reliable Data Solutions</h2>
       <img src={Icon} className='safe' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
