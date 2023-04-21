@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Contact.css'
 import Nav from './Nav'
 import { FiInstagram } from "react-icons/fi"
@@ -14,13 +14,23 @@ import gay from '../images/gay.png'
 import lets from '../images/lets.png'
 import { GrNext } from "react-icons/gr"
 import Footer from './Footer'
+import { FaBars, FaTimes} from "react-icons/fa"
+import { useMediaQuery } from 'react-responsive';
 
 const Contact = () => {
+  const navRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+
+  const Shownavbar = () => {
+    navRef.current.classList.toggle("responsive_submenu");}
   return (
     <div>
+      <div className='nav'>
       <Nav/>
+      </div>
       <div className='menus-bar'>
-        <div className='submenus'>
+        <div className='submenus' ref={navRef}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -52,6 +62,9 @@ const Contact = () => {
             </div>
 
         </div>
+        <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
+            <FaBars/>
+            </button>
 
       </div>
       <div className='bodysis'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './About.css'
 import Nav from './Nav'
 import { FiInstagram } from "react-icons/fi"
@@ -12,16 +12,26 @@ import miss from "../images/miss.jpg";
 import culs from "../images/culs.jpg";
 import hai from "../images/hai.png";
 import shema from "../images/shema.jpg";
+import { FaBars, FaTimes} from "react-icons/fa"
+import { useMediaQuery } from 'react-responsive';
 
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
 const About = () => {
+  const navRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+
+  const Shownavbar = () => {
+    navRef.current.classList.toggle("responsive_submenu");}
   return (
     <div>
+      <div className='nav'>
       <Nav/>
+      </div>
       <div className='menu-bar'>
-        <div className='submenu'>
+        <div className='submenu' ref={navRef}>
         <div className='home'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -53,17 +63,20 @@ const About = () => {
             </div>
 
         </div>
+        <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
+            <FaBars/>
+            </button>
 
       </div>
        <div className='bodys'>
-        <img src={hero} className='Photos'/>
+        <img src={hero} className='Photos' style={{width: isSmallScreen? "100%":""}}/>
         <div className='text'>
-          <div className='logistics'>
+          <div className='logistics ' style={{display: isSmallScreen?"none":""}}>
            
            
            
 
-            <div className='explore'>
+            <div className='explore' style={{ marginTop: isSmallScreen? "-400px":"",marginLeft: isSmallScreen? "-45px":"", width: isSmallScreen? "150px":"", height: isSmallScreen?"8vh":""}}>
               <div className='rot'></div>
               <h1>Discover</h1>
 
@@ -74,17 +87,17 @@ const About = () => {
           
         </div>
         <div className='huh'>
-          <img src={Abouts} style={{width:"100%", height:"25vh"}}/>
+          <img src={Abouts} style={{width:"100%", height:"25vh", marginTop: isSmallScreen? "-400px":"",marginLeft: isSmallScreen? "-45px":"", width: isSmallScreen? "250px":""}} />
         </div>
       </div>
-      <div className='blog'>
+      <div className='blog' style={{marginTop: isSmallScreen?"-124%":""}}>
         <div className='blogs'>
-          <img src={miss} style={{height:"45vh", width:"100%", border:"1px solid transparent", borderRadius:"8px"}}/>
+          <img src={miss} style={{height:"45vh", width:"100%", border:"1px solid transparent", borderRadius:"8px", marginTop: isSmallScreen?"118%":"", marginleft: isSmallScreen?"-2px":"", position: isSmallScreen?"absolute":"", width: isSmallScreen?"300px":""}}/>
         </div>
         <div className='hup'>
-          <h1> Company mission</h1>
-          <p>“Success is based on pro-active and dedicated teamwork in a professional and ethical environment...” </p>
-          <h2>We strongly believe that success is based on pro-active and dedicated teamwork in a professional and ethical environment that leads to creative solutions and fully deserved rewards. This said, we always focus on safety, quality, a detailed approach, and above all, diligent handling of budgetary means to maintain high standards at all levels of our activities, especially in dealings with employees, suppliers, subcontractors, and customers.</h2>
+          <h1 style={{marginTop: isSmallScreen?"-34%":"", marginLeft: isSmallScreen?"-36%":"", fontSize: isSmallScreen?"25px":"", position: isSmallScreen?"absolute":"",}}> Company mission</h1>
+          <p style={{marginTop: isSmallScreen?"-44%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":""}}>“Success is based on pro-active and dedicated teamwork in a professional and ethical environment...” </p>
+          <h2 style={{marginTop: isSmallScreen?"-74%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>We strongly believe that success is based on pro-active and dedicated teamwork in a professional and ethical environment that leads to creative solutions and fully deserved rewards. This said, we always focus on safety, quality, a detailed approach, and above all, diligent handling of budgetary means to maintain high standards at all levels of our activities, especially in dealings with employees, suppliers, subcontractors, and customers.</h2>
         </div>
         <div className='vis'>
         <h1> Company culture</h1>

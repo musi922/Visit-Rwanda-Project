@@ -1,3 +1,178 @@
+
+body{
+  overflow-x: hidden;
+  
+}
+@media only screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  
+}
+
+
+.nav-btn{
+  cursor: pointer;
+  color: #FFB629;
+  visibility: none;
+  opacity: 0;
+  font-size: 24px;
+  position: absolute;
+  margin-left: 79%;
+  margin-top: 22px;
+  border: none;
+  background: transparent;
+  outline: none;
+  
+  
+}
+
+@media only screen and (max-width: 767px){
+  body{
+    overflow-x: hidden;
+  }
+  .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+  .submenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #070d29;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+  .submenu h1{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    
+  }
+  .home h1{
+    display: flex;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -22%;
+  }
+  h1{
+    color: red;
+  }
+  .Services h1{
+    display: flex;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: -13%;
+  }
+  .About h1{
+    display: flex;
+    position: absolute;
+    margin-left: -14.5%;
+    margin-top: -4%;
+  }
+  .projects h1{
+    display: flex;
+    position: absolute;
+    margin-left: -32.5%;
+    margin-top: 6%;
+  }
+  .contact h1{
+    display: flex;
+    position: absolute;
+    margin-left: -52%;
+    margin-top: 16%;
+  }
+  .Careers h1{
+    display: flex;
+    position: absolute;
+    margin-left: -70%;
+    margin-top: 25%;
+  }
+  
+  .responsive_submenu{
+     transform: none;
+  }
+  .nextmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -38%;
+    margin-top: 3px;
+    width: 416.99px;
+    height: 63px;
+
+  }
+  .appoint{
+    display: none;
+  }
+  
+  .color{
+    margin-top: -122%;
+    
+    position: absolute;
+    margin-left: -12%;
+  }
+  
+  .logistics h1{
+    margin-top: -120%;
+    position: absolute;
+    width: 294px;
+    height: 83px;
+    margin-left: 2%;
+    
+  }
+  .logs{
+    margin-top: -122%;
+    position: absolute;
+  }
+  .logistics h2{
+    margin-top: -21%;
+    font-size: 4px;
+    position: absolute;
+  }
+  .explos{
+    margin-top: -90%;
+    position: absolute;
+  }
+  .rois{
+    margin-left: -14%;
+  }
+ .about{
+  margin-top: -34%;
+ }
+ .ric{
+  margin-top: -26%;
+  position: absolute;
+ }
+ .why{
+  margin-top: 144%;
+ }
+ .whys{
+  margin-top: 144%;
+ }
+ .us{
+  margin-top: 326%;
+ }
+ 
+ 
+  
+  
+  
+}
+
 .menu-bar{
     background-color: #070d29;
     height: 8vh;
