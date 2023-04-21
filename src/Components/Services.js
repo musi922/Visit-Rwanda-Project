@@ -106,7 +106,7 @@ const Services = () => {
         
       </div>
       <div className='trains' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
-        <h1>
+        <h1 style={{ width: isSmallScreen ? '300px':""}}>
         Data cleaning and processing
         </h1>
         <p>Following the quality of our service thus having gained trust of our many clients.</p>
@@ -138,26 +138,26 @@ const Services = () => {
       </div>
       <div className='how' style={{marginTop: isSmallScreen ?  '10%':''}}>
         <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>IA Group Services Decription</h1>
-        <p style={{fontSize: isSmallScreen ?  '12px':'',marginLeft: isSmallScreen ?  '2%':'', width: isSmallScreen?"380px":""}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+        <p style={{fontSize: isSmallScreen ?  '12px':'',marginLeft: isSmallScreen ?  '2%':'', width: isSmallScreen?"360px":""}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, 
 
 </p>
       </div>
       <div className='ben' style={{marginTop: isSmallScreen ?  '30%':''}}>
         <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>Benefits of Our Services</h1>
-        <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '380px':''}}>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
+        <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '370px':''}}>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Clearance and compliance service</h2><br></br><br></br>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Saving Time to Deal with commodo iaculis</h2><br></br><br></br>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Automate your business elis tristique</h2><br></br>
         <div className='tab'>
           <img src={ines} className='ines' style={{marginTop: isSmallScreen ?  '55%':'',marginLeft: isSmallScreen ?  '-102%':'', width: isSmallScreen?"350px":""}}/>
           <div className='vid'>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/mRbeIZKcDyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  style={{marginTop: isSmallScreen ?  '55%':'',marginLeft: isSmallScreen ?  '-22%':'', width: isSmallScreen?"350px":""}}></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/mRbeIZKcDyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  style={{marginTop: isSmallScreen ?  '55%':'',marginLeft: isSmallScreen ?  '-20%':'', width: isSmallScreen?"340px":""}}></iframe>
           </div>
-          <div className='work' style={{marginTop: isSmallScreen ?  '40%':'', marginLeft: isSmallScreen ?  '-48%':'', width: isSmallScreen?"380px":""}}>
+          <div className='work' style={{marginTop: isSmallScreen ?  '40%':'', marginLeft: isSmallScreen ?  '-42%':'', width: isSmallScreen?"360px":""}}>
             <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>How It Works</h1>
-            <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '380px':'',fontSize: isSmallScreen ?  '14px':'',}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, doloremque laudantium.
+            <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '360px':'',fontSize: isSmallScreen ?  '14px':'',}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, doloremque laudantium.
 
 Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis.</p>
           </div>
@@ -165,7 +165,7 @@ Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolo
         </div>
  
       </div>
-      <div className='joa' style={{marginTop: isSmallScreen ?  '200%':'',width: isSmallScreen ?  '380px':'', marginLeft: isSmallScreen ?  '10px':''}}>
+      <div className='joa' style={{marginTop: isSmallScreen ?  '200%':'',width: isSmallScreen ?  '360px':'', marginLeft: isSmallScreen ?  '34px':''}}>
       <Footer/>
       </div>
 

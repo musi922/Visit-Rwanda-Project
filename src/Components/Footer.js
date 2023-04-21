@@ -18,7 +18,7 @@ const Footer = () => {
     <div>
       <div>
         <div className='white'>
-            <div className='div'>
+            <div className='div' style={{width: isLargeScreen? "328px":""}}>
             </div>
             <div className='divs'>
             <img src={Frame} style={{marginTop:"6%", marginLeft:"-2%" , }} /> 

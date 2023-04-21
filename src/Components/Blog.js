@@ -21,6 +21,7 @@ import newsnow from "../images/newsnow.jpg";
 import bed from "../images/bed.jpg";
 import amer from "../images/amer.jpeg";
 import breaks from "../images/breaks.jpg";
+import Footer from './Footer'
 
 
 const Blog = () => {
@@ -92,7 +93,10 @@ const Blog = () => {
         <Newscard imgs={newsnow} dates="04" day="Monday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" yu=". Reliable & experienced staffs"/>
         </div>
        
-        </div> 
+        </div>
+        <div style={{marginTop:"28%",}}>
+          <Footer/>
+          </div> 
     </div>
   )
 }
