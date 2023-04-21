@@ -35,7 +35,7 @@ const Services = () => {
       <Nav/>
       </div>
       <div className='menus-bar'>
-        <div className='submenus' ref={navRef}>
+        <div className='submenus' ref={navRef} style={{background: isSmallScreen? "#070d29":"",height: isSmallScreen? "50vh":"",width: isSmallScreen? "330px":""}}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>

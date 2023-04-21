@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{ useRef }from 'react'
 import './Blog.css'
 import Nav from './Nav'
 import Newscard from './Newscard'
@@ -22,14 +22,27 @@ import bed from "../images/bed.jpg";
 import amer from "../images/amer.jpeg";
 import breaks from "../images/breaks.jpg";
 import Footer from './Footer'
+import { FaBars, FaTimes} from "react-icons/fa"
+import { useMediaQuery } from 'react-responsive';
 
 
 const Blog = () => {
+  const navRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+
+
+  const Shownavbar = () => {
+    navRef.current.classList.toggle("responsive_submenu");
+  }
+
   return (
     <div>
-      <Nav/>
+      <div className='navs' style={{display:isSmallScreen? "none":""}}>
+        <Nav/>
+      </div>
       <div className='menus-bar'>
-        <div className='submenus'>
+        <div className='submenus'  ref={navRef} style={{background: isSmallScreen? "#070d29":"",height: isSmallScreen? "50vh":"",width: isSmallScreen? "330px":""}}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -59,27 +72,31 @@ const Blog = () => {
             <div className='appoints'>
               Request appoint
             </div>
+            
 
         </div>
+        <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
+            <FaBars/>
+            </button>
 
       </div>
-      <div className='bodysi'>
-        <img src={blogs} className='Photos'/>
-        <div className='textss'>
+      <div className='bodysi' style={{height: isSmallScreen ? '115vh':""}}>
+        <img src={blogs} className='Photos' style={{width: isSmallScreen ? '100%':'',}}/>
+        <div className='textss' style={{marginTop: isSmallScreen ? '-90%':'',}}>
           <div className='logisticss'>
             <div className='colors'></div>
             <h1>Blog</h1>
 
           </div>
-          <h2>Our Latest News</h2>
+          <h2 style={{fontSize: isSmallScreen ? '32px' :"", width: isSmallScreen ? '162px' :""}}>Our Latest News</h2>
           
         </div>
       </div>
-      <div className='intro'>
-        <h1>Intelligence Analytics news</h1>
-        <p>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam id elit hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed, faucibus vel elit Integer adipiscing erat eget risus sollicitudin pellentesque non erat. Maecenas nibh dolor malesuada sagittis accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere.</p>
+      <div className='intro' style={{marginTop: isSmallScreen ? '-80%' :"", width: isSmallScreen?"350px":""}}>
+        <h1 style={{fontSize: isSmallScreen ? '22px' :"", width: isSmallScreen ? '262px' :""}}>Intelligence Analytics news</h1>
+        <p style={{fontSize: isSmallScreen ? '14px' :"", width: isSmallScreen ? '350px' :""}}>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam id elit hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed, faucibus vel elit Integer adipiscing erat eget risus sollicitudin pellentesque non erat. Maecenas nibh dolor malesuada sagittis accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere.</p>
       </div>
-       <div className='newsi'>
+       <div className='newsi' style={{ marginTop: isSmallScreen ? '40%' :""}}>
         <div>
         <Newscard imgs={amer} dates="08" day="Thursday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" yu=". Reliable & experienced staffs"/>
         </div>
@@ -94,7 +111,7 @@ const Blog = () => {
         </div>
        
         </div>
-        <div style={{marginTop:"28%",}}>
+        <div style={{marginTop:"28%",  marginTop: isSmallScreen ? '90%' :""}}>
           <Footer/>
           </div> 
     </div>
