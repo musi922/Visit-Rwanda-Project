@@ -138,7 +138,7 @@ const Services = () => {
       </div>
       <div className='how' style={{marginTop: isSmallScreen ?  '10%':''}}>
         <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>IA Group Services Decription</h1>
-        <p style={{fontSize: isSmallScreen ?  '12px':'',marginLeft: isSmallScreen ?  '2%':'', width: isSmallScreen?"360px":""}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+        <p style={{fontSize: isSmallScreen ?  '12px':'',marginLeft: isSmallScreen ?  '5%':'', width: isSmallScreen?"350px":""}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, 
 
@@ -146,7 +146,7 @@ Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse,
       </div>
       <div className='ben' style={{marginTop: isSmallScreen ?  '30%':''}}>
         <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>Benefits of Our Services</h1>
-        <p style={{marginLeft: isSmallScreen ?  '2px':'',width: isSmallScreen ?  '370px':''}}>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
+        <p style={{marginLeft: isSmallScreen ?  '2px':'', display: isSmallScreen ?  'none':''}}>Sed ut perspiciatis, unde omnis iste natu volupta temaccu santium doloremque laudantium, totam rem quae ab illo inventore veritatis.</p>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Clearance and compliance service</h2><br></br><br></br>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Saving Time to Deal with commodo iaculis</h2><br></br><br></br>
         <h2 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'', width: isSmallScreen?"350px":""}}><AiOutlineArrowRight />  Automate your business elis tristique</h2><br></br>
