@@ -67,34 +67,34 @@ const Contact = () => {
             </button>
 
       </div>
-      <div className='bodysis'>
-        <img src={Bannerhem} className='Photos'/>
-        <div className='textss'>
+      <div className='bodysis' style={{height: isSmallScreen ? '80vh':""}}>
+        <img src={Bannerhem} className='Photos' style={{width: isSmallScreen ? '100%':'',}}/>
+        <div className='textss' style={{marginTop: isSmallScreen ? '-98%':'',}}>
           <div className='logisticss'>
             <div className='colors'></div>
             <h1>Contact</h1>
 
           </div>
-          <h2>Contact Us</h2>
+          <h2 style={{fontSize: isSmallScreen ? '32px' :"", width: isSmallScreen ? '162px' :"", marginTop: isSmallScreen ? '42px' :""}}>Contact Us</h2>
           
         </div>
       </div>
-      <div className='faq'>
+      <div className='faq' style={{width: isSmallScreen ? '370px':"",}}>
         <div className='logis'>
-            <div className='colos'></div>
+            <div className='colos' style={{marginLeft: isSmallScreen ? '-10px':"",}}></div>
             <h1>FAQ</h1>
             <h2>Where can I Find your IA services?</h2>
             <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive.</p>
-            <h3>What Other Services available?        <GrNext style={{marginLeft:"15%", position:"absolute"}}/></h3>
-            <h4>Where is the IA Group Located?        <GrNext style={{marginLeft:"14%", position:"absolute"}}/></h4>
-            <h5>What are the Terms used at Ia?        <GrNext style={{marginLeft:"16%", position:"absolute"}}/></h5>
+            <h3 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>What Other Services available?        <GrNext style={{marginLeft:"15%", position:"absolute"}}/></h3>
+            <h4 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>Where is the IA Group Located?        <GrNext style={{marginLeft:"14%", position:"absolute"}}/></h4>
+            <h5 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>What are the Terms used at Ia?        <GrNext style={{marginLeft:"16%", position:"absolute"}}/></h5>
 
 
           </div>
-          <div className='level'>
+          <div className='level' style={{marginTop: isSmallScreen ? '150%':"",}}>
             <img src={gay} style={{height:"50vh", width:"100%", border:"1px solid transparent", borderRadius:"8px"}}/>
           </div>
-          <div className='lev'>
+          <div className='lev' style={{marginTop: isSmallScreen ? '150%':"",}}>
             <img src={lets} style={{marginLeft:"15%", marginTop:"5%"}}/>
             <h1>You need any help? get free consultation</h1>
             <img src={yal} style={{height:"40px", marginLeft:"15%"}}/>
@@ -105,7 +105,7 @@ const Contact = () => {
 
             </div>
           </div>
-        <h1>Frequently Asked Questions</h1>
+        <h1 style={{marginTop: isSmallScreen ? '20%':"",}}>Frequently Asked Questions</h1>
       </div>
       <div className='now'>
       <div className='logi'>
