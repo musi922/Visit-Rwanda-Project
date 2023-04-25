@@ -79,15 +79,15 @@ const Contact = () => {
           
         </div>
       </div>
-      <div className='faq' style={{width: isSmallScreen ? '370px':"",}}>
+      <div className='faq' style={{width: isSmallScreen ? '387px':"", marginLeft: isSmallScreen?"-4%":"",height: isSmallScreen ? '180vh':""}}>
         <div className='logis'>
             <div className='colos' style={{marginLeft: isSmallScreen ? '-10px':"",}}></div>
             <h1>FAQ</h1>
-            <h2>Where can I Find your IA services?</h2>
-            <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive.</p>
-            <h3 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>What Other Services available?        <GrNext style={{marginLeft:"15%", position:"absolute"}}/></h3>
-            <h4 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>Where is the IA Group Located?        <GrNext style={{marginLeft:"14%", position:"absolute"}}/></h4>
-            <h5 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'',marginTop: isSmallScreen ?  '3%':'', width: isSmallScreen?"250px":""}}>What are the Terms used at Ia?        <GrNext style={{marginLeft:"16%", position:"absolute"}}/></h5>
+            <h2 style={{fontSize: isSmallScreen ?  '20px':'',marginLeft: isSmallScreen ?  '-10%':'',marginTop: isSmallScreen ?  '343%':'', width: isSmallScreen?"290px":"", position: isSmallScreen?"absolute":""}}>Where can I Find your IA services?</h2>
+            <p style={{fontSize: isSmallScreen ?  '14px':'', width: isSmallScreen?"340px":"", marginLeft: isSmallScreen ?  '-20%':'',}}>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of .</p>
+            <h3 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '18%':'', width: isSmallScreen?"250px":""}}>What Other Services available?        <GrNext style={{marginLeft:"15%", position:"absolute"}}/></h3>
+            <h4 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '16%':'', width: isSmallScreen?"250px":""}}>Where is the IA Group Located?        <GrNext style={{marginLeft:"14%", position:"absolute"}}/></h4>
+            <h5 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '16%':'', width: isSmallScreen?"250px":""}}>What are the Terms used at Ia?        <GrNext style={{marginLeft:"16%", position:"absolute"}}/></h5>
 
 
           </div>
