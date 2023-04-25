@@ -73,7 +73,7 @@ const Careers = () => {
             <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
             <h3 style={{ display: isSmallScreen ? 'none' : '' , }}>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
-            <div className='explore'>
+            <div className='explore' style={{display: isSmallScreen?"none":""}}>
               <div className='rot'></div>
               <h1 style={{display: isSmallScreen?"none":""}}>Welcome here</h1>
 
@@ -131,7 +131,7 @@ Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis d
           
         </div>
       </div>
-      <div className='shan' style={{marginTop: isSmallScreen?"80%":"",  width: isSmallScreen?"350px":""}}>
+      <div className='shan' style={{marginTop: isSmallScreen?"80%":"",  width: isSmallScreen?"374px":""}}>
       <Footer/>
       </div>
     </div>
