@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{ useRef }from 'react'
 import './Careers.css'
 import Nav from './Components/Nav'
 import { FiInstagram } from "react-icons/fi"
@@ -9,14 +9,24 @@ import Photo from "./images/Photo.jpg";
 import career from "./images/career.jpg";
 import { Link } from 'react-router-dom'
 import Footer from './Components/Footer'
+import { FaBars, FaTimes} from "react-icons/fa"
+import { useMediaQuery } from 'react-responsive';
 
 
 const Careers = () => {
+  const navRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+
+  const Shownavbar = () => {
+    navRef.current.classList.toggle("responsive_submenu");}
   return (
     <div>
+      <div className='nav'>
       <Nav/>
+      </div>
       <div className='menu-bar'>
-        <div className='submenu'>
+        <div className='submenu' ref={navRef}>
         <div className='home'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -48,20 +58,24 @@ const Careers = () => {
             </div>
 
         </div>
+        <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
+            <FaBars/>
+            </button>
+
 
       </div>
       <div className='body'>
-        <img src={Photo} className='Photo'/>
+        <img src={Photo} className='Photo' style={{width: isSmallScreen ? '80%':'',}}/>
         <div className='text'>
-          <div className='logistics'>
+          <div className='logistics' style={{backgroundColor: isSmallScreen ?"transparent":""}}>
             <div className='color'></div>
             <h1>Want to become member</h1>
-            <h2>Your Gateway to any Data in the World</h2>
-            <h3>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
+            <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
+            <h3 style={{ display: isSmallScreen ? 'none' : '' , }}>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
             <div className='explore'>
               <div className='rot'></div>
-              <h1>Welcome here</h1>
+              <h1 style={{display: isSmallScreen?"none":""}}>Welcome here</h1>
 
             </div>
           
@@ -71,22 +85,22 @@ const Careers = () => {
         </div>
       </div>
       <div className='car'>
-        <h1>Your Career Solutions</h1>
-        <p>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo Fusce lectus ex pretium[...]</p>
+        <h1 style={{fontSize: isSmallScreen?"23px":"",  width: isSmallScreen?"350px":""}}>Your Career Solutions</h1>
+        <p style={{fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo Fusce lectus ex pretium[...]</p>
 
-        <div className='hee'>
-            <p>“Digitization within transport and logistics means seamless service to our customers, visibility in the supply chain, and driving a more efficient business.”</p>
+        <div className='hee' style={{width: isSmallScreen?"350px":""}}>
+            <p style={{fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"300px":""}}>“Digitization within transport and logistics means seamless service to our customers, visibility in the supply chain, and driving a more efficient business.”</p>
 
         </div>
-        <h3>Safest Career Solutions Provider With Integrity</h3>
-        <h4>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec attempus.Phasellus at quam hendrerit semper David Warner nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo Fusce lectus ex pretium[...]</h4>
+        <h3 style={{fontSize: isSmallScreen?"16px":"",  width: isSmallScreen?"350px":""}}>Safest Career Solutions Provider With Integrity</h3>
+        <h4 style={{fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec attempus.Phasellus at quam hendrerit semper David Warner nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo Fusce lectus ex pretium[...]</h4>
         <div className='cargo'>
-            <img src={career} className='rgo'/>
+            <img src={career} className='rgo' style={{width: isSmallScreen?"350px":""}}/>
         </div>
-        <h5>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec attempus.Phasellus at quam hendrerit semper David Warner nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo Fusce lectus ex pretium.
+        <h5 style={{fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec attempus.Phasellus at quam hendrerit semper David Warner nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo Fusce lectus ex pretium.
 
 Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapib libero vel porttitor. Nulla tempor elit nec feugiat tempus Phasellus atquam.</h5>
-        <div className='side'>
+        <div className='side' style={{display: isSmallScreen?"none":""}}>
             <div className='boy'>
                 <h1>Categories</h1>
                 <div className='one'>
@@ -106,18 +120,18 @@ Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis d
                 </div> 
             </div>
         </div>
-        <div className='girl'>
+        <div className='girl' style={{marginLeft: isSmallScreen?"-12%":"",  width: isSmallScreen?"280px":"", marginTop: isSmallScreen?"2%":""}}>
             <h1>Need To be a member?</h1>
             <p>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapib libero vel porttitor. Nulla tempor elit nec feugiat tempus Phasellus atquam.</p>
-            <div className='explores'>
-              <div className='rots'></div>
+            <div className='explores' style={{marginLeft: isSmallScreen?"16%":"",   marginTop: isSmallScreen?"264%":""}}>
+              <div className='rots' style={{display: isSmallScreen?"none":"", }}></div>
               <h1>Contact us</h1>
 
             </div>
           
         </div>
       </div>
-      <div className='shan'>
+      <div className='shan' style={{marginTop: isSmallScreen?"80%":"",  width: isSmallScreen?"350px":""}}>
       <Footer/>
       </div>
     </div>
