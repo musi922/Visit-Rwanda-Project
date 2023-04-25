@@ -107,33 +107,32 @@ const Contact = () => {
           </div>
         <h1 style={{marginTop: isSmallScreen ? '20%':"",}}>Frequently Asked Questions</h1>
       </div>
-      <div className='now'  style={{marginTop: isSmallScreen ? '6%':"",  width: isSmallScreen?"176px":"", marginLeft: isSmallScreen ? '-91%':"",}}>
-      <div className='logi' style={{marginTop: isSmallScreen ? '-19%':"",}}>
+      <div className='now'  style={{marginTop: isSmallScreen ? '6%':"",  width: isSmallScreen?"176px":"", marginLeft: isSmallScreen ? '-91%':"", }}>
+      <div className='logi' style={{marginTop: isSmallScreen ? '-19%':"", }} >
             <div className='colo'></div>
-            <h1>Contact</h1>
+            <h1 style={{width: isSmallScreen ? '100px':"",}}>Contact</h1>
             
 
           </div>
           <h2 style={{fontSize: isSmallScreen ? '20px':"",}}>Get in touch with us</h2>
-          <div className='iyi'>
-          <img src={iyi} style={{marginLeft: isSmallScreen ? '30%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"",}}/>
+          <div className='iyi' style={{width: isSmallScreen?"300px":"", }}>
+          <img src={iyi} style={{marginLeft: isSmallScreen ? '10%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"", }}/>
           <img src={yal}  style={{marginLeft: isSmallScreen ? '53%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"", position: isSmallScreen?"absolute":""}}/>
           <img src={yuh}  style={{marginLeft: isSmallScreen ? '-4%':"", width: isSmallScreen ? '50px':"", display: isSmallScreen ? 'none':"", }}/>
 
           </div>
-          <div className='iyo'>
-            <h1 style={{fontSize: isSmallScreen ?  '13px':'', marginLeft: isSmallScreen ? '28%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"",}}>Contact@logistics.com</h1>
-            <h2 style={{fontSize: isSmallScreen ?  '12px':'', marginLeft: isSmallScreen ? '48%':"", width: isSmallScreen ? '190px':"", height: isSmallScreen ? '5vh':"", position: isSmallScreen?"absolute":""}}>Call us: +250799340499</h2>
-            <h3>Mon - Sat 9.00 - 18.00
-Sunday Closed</h3>
+          <div className='iyo' style={{width: isSmallScreen?"300px":""}}>
+            <h1 style={{fontSize: isSmallScreen ?  '13px':'', marginLeft: isSmallScreen ? '5%':"",marginTop: isSmallScreen ? '8%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"",}}>Contact@logistics.com</h1>
+            <h2 style={{fontSize: isSmallScreen ?  '12px':'', marginLeft: isSmallScreen ? '48%':"",marginTop: isSmallScreen ? '8%':"", width: isSmallScreen ? '170px':"", height: isSmallScreen ? '5vh':"", position: isSmallScreen?"absolute":""}}>Call us: +250799340499</h2>
+            <h3 style={{display: isSmallScreen?"none":""}}>Mon - Sat 9.00 - 18.00 Sunday Closed</h3>
           </div>
-          <div className='user' > 
-          <input type='text' name='name' className='name' placeholder='Your name*' style={{marginLeft: isSmallScreen ? '34%':"", marginTop: isSmallScreen ? '2%':"",  width: isSmallScreen ? '240px':"",}}/>
-          <input type='email' name='name' className='email' placeholder='Your email*' style={{marginLeft: isSmallScreen ? '34%':"", marginTop: isSmallScreen ? '12%':"", position:isSmallScreen?"absolute":"", width: isSmallScreen ? '240px':"", }}/>
+          <div className='user' style={{width: isSmallScreen ?  '400px':'',  position: isSmallScreen?"absolute":"", marginLeft: isSmallScreen ? '-34%':"", }}> 
+          <input type='text' name='name' className='name' placeholder='Your name*' style={{marginLeft: isSmallScreen ? '34%':"",position: isSmallScreen?"absolute":"", marginTop: isSmallScreen ? '2%':"",  width: isSmallScreen ? '240px':"",}}/>
+          <input type='email' name='name' className='email' placeholder='Your email*' style={{marginLeft: isSmallScreen ? '34%':"", marginTop: isSmallScreen ? '22%':"", position:isSmallScreen?"absolute":"", width: isSmallScreen ? '240px':"", }}/>
           </div>
-          <div className='users' style={{marginTop: isSmallScreen ? '80%':"",}}> 
+          <div className='users' style={{marginTop: isSmallScreen ? '80%':"", width: isSmallScreen ?  '400px':'',  position: isSmallScreen?"absolute":"", marginLeft: isSmallScreen ? '-34%':"",}}> 
           <input type='text' name='name' className='names' placeholder='Phone Number*' style={{marginLeft: isSmallScreen ? '34%':"", marginTop: isSmallScreen ? '2%':"",  width: isSmallScreen ? '240px':"",}}/>
-          <input type='text' name='name' className='emails' placeholder='City*'style={{marginLeft: isSmallScreen ? '34%':"", marginTop: isSmallScreen ? '12%':"", position:isSmallScreen?"absolute":"", width: isSmallScreen ? '240px':"", }}/>
+          <input type='text' name='name' className='emails' placeholder='City*'style={{marginLeft: isSmallScreen ? '34%':"", marginTop: isSmallScreen ? '22%':"", position:isSmallScreen?"absolute":"", width: isSmallScreen ? '240px':"", }}/>
           </div>
           <input type='text' name='message' className='message' placeholder='Your Message'  style={{marginTop: isSmallScreen ? '128%':"",marginLeft: isSmallScreen ? '10%':"",  width: isSmallScreen ? '240px':"",}}/>
           <div className='exps'  style={{marginTop: isSmallScreen ? '178%':"",}}>
@@ -142,7 +141,7 @@ Sunday Closed</h3>
 
             </div>
       </div>
-      <div className='sif' style={{marginTop: isSmallScreen ? '260%':"", width: isSmallScreen ?  '365px':'', marginLeft: isSmallScreen ?  '2px':''}}>
+      <div className='sif' style={{marginTop: isSmallScreen ? '260%':"", width: isSmallScreen ?  '365px':'', marginLeft: isSmallScreen ?  '2px':'', }}>
        <Footer/>
       </div>
     </div>
