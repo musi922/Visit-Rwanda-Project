@@ -91,17 +91,17 @@ const Contact = () => {
 
 
           </div>
-          <div className='level' style={{marginTop: isSmallScreen ? '150%':"",}}>
+          <div className='level' style={{marginTop: isSmallScreen ? '140%':"",  width: isSmallScreen?"300px":"",marginLeft: isSmallScreen ? '12%':"", }}>
             <img src={gay} style={{height:"50vh", width:"100%", border:"1px solid transparent", borderRadius:"8px"}}/>
           </div>
-          <div className='lev' style={{marginTop: isSmallScreen ? '150%':"",}}>
+          <div className='lev' style={{marginTop: isSmallScreen ? '120%':"", marginLeft: isSmallScreen ? '15%':"", width: isSmallScreen ? '280px':"",}}>
             <img src={lets} style={{marginLeft:"15%", marginTop:"5%"}}/>
-            <h1>You need any help? get free consultation</h1>
-            <img src={yal} style={{height:"40px", marginLeft:"15%"}}/>
-            <h3>Have Any Questions : +250799340499</h3>
+            <h1 style={{fontSize: isSmallScreen ? "16px":"", width: isSmallScreen ? '280px':"", marginLeft: isSmallScreen ? '10%':"",  marginTop: isSmallScreen ? '4%':"",}}>You need any help? get free consultation</h1>
+            <img src={yal} style={{height:"40px", marginLeft:"15%" }}/>
+            <h3 style={{ marginTop: isSmallScreen ? '-58%':"",}}>Have Any Questions : +250799340499</h3>
             <div className='explo'>
               <div className='roti'></div>
-              <h1>Contact us</h1>
+              <h1 style={{ marginTop: isSmallScreen ? '2%':"",  width: isSmallScreen ? '200px':"",}}>Contact us</h1>
 
             </div>
           </div>
