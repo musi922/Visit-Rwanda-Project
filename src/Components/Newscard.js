@@ -6,12 +6,14 @@ import { useMediaQuery } from 'react-responsive';
 
 
 
+
 const Newscard = (propse) => {
   const isSmallScreen = useMediaQuery({ query: '(max-width: 1024px)' });
   const isLargeScreen = useMediaQuery({ query: '(min-width: 1024px)' });
 
   return (
     <div>
+      
       
         <div className='piic' style={{display: isSmallScreen?"flex":"", flexDirection: isSmallScreen? "column":"", }}>
        
@@ -32,6 +34,7 @@ const Newscard = (propse) => {
 
         
         </div>
+        
      
       
 
