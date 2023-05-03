@@ -14,7 +14,6 @@ const Newscard = (propse) => {
   return (
     <div>
       
-      
         <div className='piic' style={{display: isSmallScreen?"flex":"", flexDirection: isSmallScreen? "column":"", }}>
        
         <img src={propse.imgs} className='imgs' style={{width: isSmallScreen ? "90%":""}}/>
@@ -34,6 +33,7 @@ const Newscard = (propse) => {
 
         
         </div>
+        
         
      
       
