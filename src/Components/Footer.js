@@ -21,7 +21,7 @@ const Footer = () => {
             <div className='div' style={{width: isLargeScreen? "328px":""}}>
             </div>
             <div className='divs'>
-            <img src={Frame} style={{marginTop:"6%", marginLeft:"-2%" , }} /> 
+            <img src={Frame} style={{marginTop:"6%", marginLeft:"0.1%" , }} /> 
             </div>
             <div className='dir' style={{display: isSmallScreen ? "none":""}}>
                  <h1>Pages</h1>

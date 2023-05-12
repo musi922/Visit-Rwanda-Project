@@ -2,6 +2,7 @@ body{
   overflow-x: hidden;
   
 }
+
 @media only screen and (max-width: 767px) {
   .nav {
     display: none;
@@ -15,6 +16,7 @@ body{
 
   
 }
+
 .nav-btn{
   cursor: pointer;
   color: #FFB629;
@@ -30,6 +32,7 @@ body{
   
   
 }
+
 @media only screen and (max-width: 767px){
   body{
     overflow-x: hidden;
@@ -169,8 +172,6 @@ body{
   
 }
 
-
-
 .menu-bar{
     background-color: #070d29;
     height: 8vh;
@@ -180,6 +181,7 @@ body{
     gap: 32%;
     cursor: pointer;
 }
+
 .submenu{
     display: flex;
     flex-direction: row;
@@ -187,6 +189,7 @@ body{
     margin-left: 4%;
     margin-top: 6px;
 }
+
 .submenu h1{
     width: 44px;
     height: 22px;
@@ -203,14 +206,17 @@ body{
     order: 0;
     flex-grow: 0;
 }
+
 .About h1{
     width: 80px;
 
 }
+
 .contact h1{
     width: 80px;
 
 }
+
 .submenu h1:hover {
     
     transform: translateX(-10%); /* center the box horizontally */
@@ -242,6 +248,7 @@ body{
     flex-grow: 0;
     color: #f1f0f0;
 }
+
 .appoint{
     border: 1px solid none;
     height: 4vh;
@@ -254,6 +261,7 @@ body{
     
     
 }
+
 .body{
     border: 1px solid none;
     height: 80vh;
@@ -261,6 +269,7 @@ body{
     background-color: #050300; 
 
 }
+
 .Photo {
     max-width: 90%;
     height: 80vh;
@@ -269,12 +278,14 @@ body{
     margin-left: 10%;
     object-position: center;
   }
+
   .text{
     margin-top: -35%;
     margin-left: 13%;
     position: absolute;
     
   }
+
   .logistics{
     display: flex;
     flex-direction: row;
@@ -289,12 +300,14 @@ body{
 
     background: rgba(4, 28, 55, 0.5);
   }
+
   .color{
     width: 12px;
     height: 24px;
     background-color: #FFB82B;
     margin-left: -9px;
   }
+
   .logistics h1{
     width: 246px;
     height: 17px;
@@ -317,6 +330,7 @@ body{
     order: 0;
 
   }
+
   .logistics h2{
     width: 404px;
     height: 213px;
@@ -337,6 +351,7 @@ body{
 
     
   }
+
   .logistics h3{
     width: 571px;
     height: 72px;
@@ -382,6 +397,7 @@ body{
     transform: rotate(23.72deg);
     z-index: 1; /* Add this line to make sure the .rot element is above other content */
   }
+
   .rot {
     /* Other CSS rules */
    
@@ -391,6 +407,7 @@ body{
   .explore:hover .rot {
     transform: rotate(23.72deg) translateX(-20%);
   }
+
   .explore h1{
     width: 99px;
     height: 22px;
@@ -408,6 +425,7 @@ body{
     color: #23212A;
 
   }
+
   .car{
     width: 90%;
     height: 140vh;
@@ -415,6 +433,7 @@ body{
     margin-top: 2%;
     margin-left: 5%;
   }
+
   .car h1{
     width: 414px;
     height: 41px;
@@ -434,6 +453,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
+
   .car p{
     width: 664px;
     height: 95px;
@@ -455,6 +475,7 @@ body{
     order: 1;
     flex-grow: 0;
   }
+
   .hee{
     height: 20vh;
     width: 40%;
@@ -463,6 +484,7 @@ body{
     background-color: #091242;
     margin-top: 3%;
   }
+
   .hee p{
     width: 554px;
     height: 72px;
@@ -483,6 +505,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
+
   .car h3{
     width: 609px;
     height: 82px;
@@ -502,6 +525,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
+  
   .car h4{
     width: 664px;
     height: 95px;
@@ -523,15 +547,18 @@ body{
     order: 1;
     flex-grow: 0;
   }
+
   .cargo{
     width: 40%;
     height: 40vh;
     border: 1px solid transparent;
   }
+
   .rgo{
     width: 100%;
     height: 40vh;
   }
+
   .car h5{
     width: 664px;
     height: 168px;
@@ -553,6 +580,7 @@ body{
     order: 1;
     flex-grow: 0;
   }
+
   .side{
     height: 100vh;
     width: 40%;
@@ -580,6 +608,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
+
   .boy h1{
     width: 119px;
     height: 26px;
@@ -602,6 +631,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
+
   .one{
     width: 80%;
     height: 4vh;
@@ -610,6 +640,7 @@ body{
     border-left: none;
     border-right: none;
   }
+
   .one h1{
     
     position: absolute;
@@ -625,6 +656,7 @@ body{
 
     color: #737aa1;
   }
+
   .two{
     width: 80%;
     height: 4vh;
@@ -633,6 +665,7 @@ body{
     border-left: none;
     border-right: none;
   }
+  
   .two h1{
     position: absolute;
     width: 405px;
@@ -823,8 +856,5 @@ body{
     font-size: 16px;
     line-height: 135.02%;
     /* identical to box height, or 22px */
-
-
     color: #23212A;
-
   }
