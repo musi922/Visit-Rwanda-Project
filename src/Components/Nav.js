@@ -1,6 +1,6 @@
 import React from 'react'
 import "./nav.css"
-import Frame from "../images/Frame.jpg";
+import Logoz from "../images/Logoz.png";
 import { BiTimeFive } from "react-icons/bi";
 import { IoCallOutline } from "react-icons/io5";
 import { BiMessage } from "react-icons/bi";
@@ -11,7 +11,7 @@ const Nav = () => {
     <div>
       <div className='top-nav'>
         <div className='image' >
-            <img src={Frame} style={{marginTop:"-2%", marginLeft:"6px"}}/>
+            <img src={Logoz} style={{marginTop:"-2%", marginLeft:"6px", height: "3vh"}}/>
         </div>
         <div className='time'>
             <div >

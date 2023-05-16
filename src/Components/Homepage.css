@@ -188,16 +188,14 @@ body{
     flex-direction: row;
     gap: 18%;
     margin-left: 4%;
-    margin-top: 6px;
+    margin-top: 16px;
 }
 
 .submenu h1{
     width: 44px;
     height: 22px;
-    font-family: 'Krub';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 18px;
     line-height: 135.02%;
     /* identical to box height, or 22px */
 
@@ -212,7 +210,7 @@ body{
 
 }
 .contact h1{
-    width: 80px;
+    width: 90px;
 
 }
 .submenu h1:hover {
