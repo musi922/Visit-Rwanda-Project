@@ -27,9 +27,9 @@ const About = () => {
     navRef.current.classList.toggle("responsive_submenu");}
   return (
     <div>
-      <div className='nav'>
+      {/* <div className='nav'>
       <Nav/>
-      </div>
+      </div> */}
       <div className='menu-bar'>
         <div className='submenu' ref={navRef}>
         <div className='home'>
@@ -40,7 +40,17 @@ const About = () => {
         </div>
         <div className='About'>
 
-            <Link to={"/AboutIA"} style={{textDecoration:"none"}}><h1>About us</h1></Link>
+           
+            <Link to={"/AboutIA"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
+  height: "32px",
+  border:"4px solid #FFB82B",
+  borderRadius: "5px",
+  borderLeft:"none",
+  borderTop:"none",
+  borderRight:"none",
+  textAlign: "center",
+  alignItems:"center",  transform: "translateX(2%)"
+  }}>About us</h1></Link>
         </div>
         <div className='projects'>
         <Link to={"/Blog"} style={{textDecoration:"none"}}><h1>Blog</h1></Link>
@@ -53,7 +63,7 @@ const About = () => {
         </div>
       
         </div>
-        <div className='nextmenu'>
+        {/* <div className='nextmenu'>
         <Link to={"https://www.instagram.com/"} style={{textDecoration:"none", color:"white"}}><FiInstagram/></Link>
             <Link to={"https://www.facebook.com/profile.php?id=100091745804529"} style={{textDecoration:"none", color:"white"}}><AiFillFacebook/></Link>
             <Link to={"https://twitter.com/home"} style={{textDecoration:"none", color:"white"}}><AiOutlineTwitter/></Link>
@@ -62,7 +72,7 @@ const About = () => {
               Request appoint
             </div>
 
-        </div>
+        </div> */}
         <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
             <FaBars/>
             </button>
