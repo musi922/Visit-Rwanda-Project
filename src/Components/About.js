@@ -32,7 +32,7 @@ const About = () => {
       </div> */}
       <div className='menu-bar' style={{height:"10vh"}}>
       <img src={Logoz} style={{marginTop:"26px", marginLeft:"10%", height: "3vh"}}/>
-        <div className='submenu' ref={navRef} style={{marginLeft:"-10%", marginTop: "16px"}}>
+        <div className='submenu' ref={navRef} style={{marginLeft:"-8%", marginTop: "16px"}}>
         <div className='home'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
