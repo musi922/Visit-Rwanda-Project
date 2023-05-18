@@ -14,7 +14,7 @@ import hai from "../images/hai.png";
 import shema from "../images/shema.jpg";
 import { FaBars, FaTimes} from "react-icons/fa"
 import { useMediaQuery } from 'react-responsive';
-
+import Logoz from "../images/Logoz.png";
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
@@ -30,8 +30,9 @@ const About = () => {
       {/* <div className='nav'>
       <Nav/>
       </div> */}
-      <div className='menu-bar'>
-        <div className='submenu' ref={navRef}>
+      <div className='menu-bar' style={{height:"10vh"}}>
+      <img src={Logoz} style={{marginTop:"26px", marginLeft:"10%", height: "3vh"}}/>
+        <div className='submenu' ref={navRef} style={{marginLeft:"-10%", marginTop: "16px"}}>
         <div className='home'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -59,7 +60,7 @@ const About = () => {
             <Link to={"/Contact"} style={{textDecoration:"none"}}><h1>Contact us</h1></Link>
         </div>
         <div className='Careers'>
-           <Link to={"/Careers"} > <h1>Careers</h1></Link>
+           <Link to={"/Careers"} style={{textDecoration:"none"}}> <h1>Careers</h1></Link>
         </div>
       
         </div>
