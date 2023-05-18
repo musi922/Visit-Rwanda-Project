@@ -24,6 +24,7 @@ import breaks from "../images/breaks.jpg";
 import Footer from './Footer'
 import { FaBars, FaTimes} from "react-icons/fa"
 import { useMediaQuery } from 'react-responsive';
+import Logoz from "../images/Logoz.png";
 
 
 const Blog = () => {
@@ -38,11 +39,14 @@ const Blog = () => {
 
   return (
     <div>
-      <div className='navs' style={{display:isSmallScreen? "none":""}}>
+      {/* <div className='navs' style={{display:isSmallScreen? "none":""}}>
         <Nav/>
-      </div>
-      <div className='menus-bar'>
-        <div className='submenus'  ref={navRef} style={{background: isSmallScreen? "#070d29":"",height: isSmallScreen? "50vh":"",width: isSmallScreen? "330px":""}}>
+      </div> */}
+      <div className='menus-bar' style={{height:"10vh"}}>
+      <div className='image' >
+            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+        </div>
+        <div className='submenus'  ref={navRef} style={{ marginLeft:"-16%", marginTop: "16px",background: isSmallScreen? "#070d29":"",height: isSmallScreen? "50vh":"",width: isSmallScreen? "330px":""}}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -54,7 +58,17 @@ const Blog = () => {
             <Link to={"/AboutIA"} style={{textDecoration:"none"}}><h1>About us</h1></Link>
         </div>
         <div className='projectss'>
-        <Link to={"/AboutIA"} style={{textDecoration:"none"}}><h1>Blog</h1></Link>
+        
+        <Link to={"/AboutIA"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
+  height: "32px",
+  border:"4px solid #FFB82B",
+  borderRadius: "5px",
+  borderLeft:"none",
+  borderTop:"none",
+  borderRight:"none",
+  textAlign: "center",
+  alignItems:"center",  transform: "translateX(2%)"
+  }}>Blog</h1></Link>
         </div>
         <div className='contacts'>
         <Link to={"/contact"} style={{textDecoration:"none"}}><h1>Contact us</h1></Link>
@@ -64,7 +78,7 @@ const Blog = () => {
         </div>
       
         </div>
-        <div className='nextmenus'>
+        {/* <div className='nextmenus'>
         <Link to={"https://www.instagram.com/"} style={{textDecoration:"none", color:"white"}}><FiInstagram/></Link>
             <Link to={"https://www.facebook.com/profile.php?id=100091745804529"} style={{textDecoration:"none", color:"white"}}><AiFillFacebook/></Link>
             <Link to={"https://twitter.com/home"} style={{textDecoration:"none", color:"white"}}><AiOutlineTwitter/></Link>
@@ -74,7 +88,7 @@ const Blog = () => {
             </div>
             
 
-        </div>
+        </div> */}
         <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
             <FaBars/>
             </button>
