@@ -20,7 +20,7 @@ import science from "../images/science.jpg";
 import why from "../images/why.jpg";
 import { FaBars, FaTimes} from "react-icons/fa"
 import { useMediaQuery } from 'react-responsive';
-
+import Logoz from "../images/Logoz.png";
 
 
 import Projectcard from "./Projectcard"
@@ -40,13 +40,25 @@ import Footer from './Footer'
   }
   return (
     <div>
-      <div className='nav'>
+      {/* <div className='nav'>
       <Nav/>
-      </div>
-      <div className='menu-bar'>
-        <div className='submenu' ref={navRef}>
+      </div> */}
+      <div className='menu-bar' style={{height:"10vh"}}>
+      <div className='image' >
+            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+        </div>
+        <div className='submenu' ref={navRef} style={{marginLeft:"-16%", marginTop: "16px"}}>
         <div className='home'>
-        <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
+        <Link to={"/"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
+  height: "32px",
+  border:"4px solid #FFB82B",
+  borderRadius: "5px",
+  borderLeft:"none",
+  borderTop:"none",
+  borderRight:"none",
+  textAlign: "center",
+  alignItems:"center",  transform: "translateX(2%)"
+  }}>Home</h1></Link>
         </div>
         <div className='Services'>
             <Link to={"/IAservices"}  style={{textDecoration:"none"}}><h1>Services</h1></Link>
@@ -66,7 +78,7 @@ import Footer from './Footer'
         </div>
       
         </div>
-        <div className='nextmenu'>
+        {/* <div className='nextmenu'>
             <Link to={"https://www.instagram.com/"} style={{textDecoration:"none", color:"white"}}><FiInstagram/></Link>
             <Link to={"https://www.facebook.com/profile.php?id=100091745804529"} style={{textDecoration:"none", color:"white"}}><AiFillFacebook/></Link>
             <Link to={"https://twitter.com/home"} style={{textDecoration:"none", color:"white"}}><AiOutlineTwitter/></Link>
@@ -76,7 +88,7 @@ import Footer from './Footer'
             </div>
             
 
-        </div>
+        </div> */}
         
             <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
             <FaBars/>

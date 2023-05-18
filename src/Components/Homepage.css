@@ -204,7 +204,17 @@ body{
     flex: none;
     order: 0;
     flex-grow: 0;
+    
 }
+ /* .home h1{
+  width: 90px;
+  height: 32px;
+  background-color: #FFB82B;
+  border-radius: 5px;
+  color: blue;
+  text-align: center;
+  
+}  */
 .About h1{
     width: 80px;
 
