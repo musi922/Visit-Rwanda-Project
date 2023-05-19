@@ -16,6 +16,7 @@ import { GrNext } from "react-icons/gr"
 import Footer from './Footer'
 import { FaBars, FaTimes} from "react-icons/fa"
 import { useMediaQuery } from 'react-responsive';
+import Logoz from "../images/Logoz.png"; 
 
 const Contact = () => {
   const navRef = useRef();
@@ -26,11 +27,14 @@ const Contact = () => {
     navRef.current.classList.toggle("responsive_submenu");}
   return (
     <div>
-      <div className='nav'>
+      {/* <div className='nav'>
       <Nav/>
-      </div>
-      <div className='menus-bar'>
-        <div className='submenus' ref={navRef}>
+      </div> */}
+      <div className='menus-bar' style={{height:"10vh"}}>
+      <div className='image' >
+            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+        </div>
+        <div className='submenus' ref={navRef} style={{marginTop:"6px", marginLeft:"-14%", height: "3vh"}}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -45,14 +49,23 @@ const Contact = () => {
         <Link to={"/Blog"} style={{textDecoration:"none"}}><h1>Blog</h1></Link>
         </div>
         <div className='contacts'>
-        <Link to={"/contact"} style={{textDecoration:"none"}}><h1>Contact us</h1></Link>
+        <Link to={"/contact"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
+  height: "32px",
+  border:"4px solid #FFB82B",
+  borderRadius: "5px",
+  borderLeft:"none",
+  borderTop:"none",
+  borderRight:"none",
+  textAlign: "center",
+  alignItems:"center",  transform: "translateX(2%)"
+  }}>Contact us</h1></Link>
         </div>
         <div className='Careerss'>
         <Link to={"/Careers"} style={{textDecoration:"none"}}><h1>Careers</h1></Link>
         </div>
       
         </div>
-        <div className='nextmenus'>
+        {/* <div className='nextmenus'>
         <Link to={"https://www.instagram.com/"} style={{textDecoration:"none", color:"white"}}><FiInstagram/></Link>
             <Link to={"https://www.facebook.com/profile.php?id=100091745804529"} style={{textDecoration:"none", color:"white"}}><AiFillFacebook/></Link>
             <Link to={"https://twitter.com/home"} style={{textDecoration:"none", color:"white"}}><AiOutlineTwitter/></Link>
@@ -61,7 +74,7 @@ const Contact = () => {
               Request appoint
             </div>
 
-        </div>
+        </div> */}
         <button onClick={Shownavbar} className='nav-btn nav-close-btn'>
             <FaBars/>
             </button>
