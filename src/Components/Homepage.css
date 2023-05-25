@@ -270,9 +270,10 @@ body{
     border: 1px solid none;
     height: 80vh;
     width: 100%;
-    background-color: #050300; 
+    /* background-color: #050300;  */
 
 }
+
 .Photo {
     max-width: 90%;
     height: 80vh;
@@ -319,7 +320,7 @@ body{
     background-color: #FFB82B;
     margin-left: -9px;
   }
-  .logistics h1{
+  /* .logistics h1{
     width: 246px;
     height: 17px;
     text-align: center;
@@ -327,25 +328,22 @@ body{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 27px;
     line-height: 17px;
     /* identical to box height */
 
-
-    color: #FFFFFF;
-
-
     /* Inside auto layout */
 
-    flex: none;
+    /* flex: none;
     order: 0;
 
-  }
+  } */ */
   .logistics h2{
     width: 404px;
     height: 213px;
     position: absolute;
     top: -4px;
+    color: rgb(53, 52, 52);
    
 
     font-family: 'Rubik';
@@ -361,6 +359,124 @@ body{
 
     
   }
+  .def{
+    border: 1px solid #f8f9fa;
+    width: 770px;
+    position: absolute;
+    height: 39vh;
+    margin-top: 109%;
+    margin-left: -15%;
+    background-color: #ecf0f4;
+  }
+  .defo{
+    border: 1px solid transparent;
+    background-color: white;
+   
+    width: 260px;
+    margin-left: 2%;
+    margin-top: 12%;
+    height: 9vh;
+    
+  }
+  .defo h1{
+    color: black;
+  }
+  .dud{
+    border: 1px solid transparent;
+   
+   
+    width: 440px;
+    margin-left: 42%;
+    margin-top: -19%;
+    height: 35vh;
+  }
+  .mount{
+    height: 30vh;
+    width: 400px;
+    border: 1px solid transparent;
+    margin-left: 250%;
+    margin-top: 76%;
+    position: absolute;
+    background-image: url("../images/koooo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+  }
+  .mounts{
+    height: 20vh;
+    width: 400px;
+    border: 1px solid transparent;
+    margin-left: 250%;
+    margin-top: 200%;
+    position: absolute;
+    background-color: #4475a0;
+
+  }
+  .mounta{
+    height: 20vh;
+    width: 400px;
+    border: 1px solid transparent;
+    margin-left: 250%;
+    margin-top: 300%;
+    position: absolute;
+    background-color: #2c4e6a;
+
+  }
+  .monte{
+    height: 20vh;
+    width: 770px;
+    border: 1px solid transparent;
+    margin-top: 300%;
+    margin-left: -15%;
+    position: absolute;
+    background-color: #222222;
+
+  }
+  .mon{
+    height: 18vh;
+    width: 270px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 0.6%;
+    margin-left: 5%;
+    position: absolute;
+    background-color: #4475a0;
+  }
+  .mov{
+    height: 12.5vh;
+    width: 252px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 12%;
+    margin-left: 2%;
+    position: absolute;
+    background-color: white;
+  }
+  
+ 
+  .mons{
+    height: 18vh;
+    width: 270px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 0.6%;
+    margin-left: 50%;
+    position: absolute;
+    background-color: #4475a0;
+  }
+  .movs{
+    height: 12.5vh;
+    width: 252px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 12%;
+    margin-left: 2%;
+    position: absolute;
+    background-color: white;
+  }
+  
+
   .logistics h3{
     width: 571px;
     height: 72px;
