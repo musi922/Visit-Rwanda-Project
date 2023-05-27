@@ -397,7 +397,7 @@ body{
     margin-left: 250%;
     margin-top: 76%;
     position: absolute;
-    background-image: url("../images/koooo.jpg");
+    /* background-image: url("../images/koooo.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
