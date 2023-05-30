@@ -178,45 +178,63 @@ import Rating from './Rating';
           
         </div>
       </div>
-      <div className='about' style={{width: isSmallScreen ? '250px':"", marginTop:"-7%"}}>
+      <div className='about' style={{width: isSmallScreen ? '250px':"", marginTop:"-6%"}}>
       <div className='ric' style={{marginLeft: isSmallScreen ? '15%':""}}>
       <div className='colors'></div>
       <h1 style={{width: isSmallScreen ?  '250px':''}}>What We Do</h1>
       </div>
-      <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Safe & Reliable Data Solutions</h2>
-      <img src={Icon} className='safe' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
-      <img src={icons} className='saf' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
+      <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>the following are our Main services </h2>
+      {/* <img src={Icon} className='safe' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
+      <img src={icons} className='saf' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/> */}
       <div className='data' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '100px':""}}>
-        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Data Management</h1>
-        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={data} className='safe' style={{marginTop: isSmallScreen ? '10%':"",marginLeft: isLargeScreen ? '-13%':"",height: isSmallScreen ? '6vh':""}}/>
+        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Collecting and analyzing data</h1>
+        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>we specialize in providing comprehensive data collection and analysis services. We understand the importance of data as a strategic asset for businesses today. Our expert team is skilled in collecting data from various sources, ensuring its accuracy, relevance, and completeness.</p>
+        {/* <img src={data} className='safe' style={{marginTop: isSmallScreen ? '10%':"",marginLeft: isLargeScreen ? '-13%':"",height: isSmallScreen ? '6vh':""}}/> */}
       </div>
       <div className='bi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
-        <h1>BI & ANALYTICS</h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <h1>Business intelligence activities</h1>
+        <p>we excel in performing business intelligence activities to transform raw data into actionable information. We employ advanced analytics techniques to extract valuable insights from complex data sets, enabling our clients to gain a deeper understanding of their business performance, market trends, and customer behavior.</p>
         <img src={Iconbb} className='safed' style={{marginTop: isSmallScreen ? '-85%':"" ,display: isLargeScreen ? "none":""}} />
         
         
       </div>
       <div className='train'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>
-        Support And Training
+        Developing data strategies
         </h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <p>Data is a valuable resource, and developing a comprehensive data strategy is crucial for businesses to leverage its full potential. We specialize in assisting businesses in developing data strategies tailored to their specific objectives and needs.</p>
         <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-85%':"",display: isLargeScreen ? "none":""}}/>
         
       </div>
       <div className='cons'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>
-        Data Dashboards
+        Building data-related products:
         </h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
-        <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-85%':"",marginLeft: isLargeScreen ? '-13%':""}}/>
+        <p> In the era of data-driven innovation, businesses are seeking customized data-related products to solve their specific challenges. We specialize in building data-related products tailored to your unique requirements.</p>
+        {/* <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-85%':"",marginLeft: isLargeScreen ? '-13%':""}}/> */}
+
+      </div>
+
+      <div className='trai'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
+        <h1>
+        Training in data-related fields:
+        </h1>
+        <p>At Exec, we offer comprehensive training programs in data-related fields to empower individuals and organizations with the skills and knowledge required to thrive in the data-driven world.</p>
+        <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-85%':"",display: isLargeScreen ? "none":""}}/>
+        
+      </div>
+
+      <div className='con'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
+        <h1>
+        Maturity assessment
+        </h1>
+        <p> We conduct holistic Maturity assessments across diverse sectors. With our extensive expertise, we go beyond data and provide comprehensive evaluations of an organization's overall maturity level in various domains. Working closely with businesses, we develop customized assessment models that align with their industry and specific objectives</p>
+        {/* <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-85%':"",marginLeft: isLargeScreen ? '-13%':""}}/> */}
 
       </div>
       
       </div>
-      <div className='tot' style={{marginTop: isSmallScreen ?  '270%':'', marginTop:"-1%"}}>
+      <div className='tot' style={{marginTop: isSmallScreen ?  '270%':'', marginTop:"15%"}}>
       <div className='why' style={{marginTop: isSmallScreen ?  '8%':'',marginLeft: isSmallScreen ?  '4%':''}}>
        
        </div>
@@ -229,17 +247,15 @@ import Rating from './Rating';
             <div className='colo'style={{ display: isSmallScreen ?  'none':'', marginLeft: isLargeScreen ?  '-3px':''}}></div>
             <h1 style={{display: isSmallScreen ? "none" : "", marginTop: isLargeScreen ?  '14px':'',marginLeft: isLargeScreen ?  '13px':''}}>Why us</h1>
         </div>
-        <p style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '290px':"", marginTop: isSmallScreen ? '4%':"" , marginLeft: isSmallScreen ? '15%':""}}>We provide Data Cleansing and Intergration Services</p>
-        <h2  style={{width: isSmallScreen ?  '98%':'',marginTop: isSmallScreen ?  '-8%':''}}>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. 
-
-          Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</h2>
+        <p style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '290px':"", marginTop: isSmallScreen ? '4%':"" , marginLeft: isSmallScreen ? '15%':""}}>Become a partner with Exec And unlock New Opportunities</p>
+        <h2  style={{width: isSmallScreen ?  '98%':'',marginTop: isSmallScreen ?  '-8%':''}}> We are proud to partner with industry-leading organizations to deliver innovative solutions and create a positive impact. Together, we strive to achieve excellence and drive success in our respective fields. Our partnerships are built on trust, mutual respect, and a shared vision for the future. By combining our expertise, resources, and networks, we can unlock new opportunities and deliver exceptional value to our customers.</h2>
           <div className='picx' style={{display: isSmallScreen ?  'none':'',}}></div>
           <div className='picy' style={{display: isSmallScreen ?  'none':'',}}></div>
           <div className='come' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
-          <h3 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":""}}>We give Support and Training</h3>
+          <h3 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":"", width:"450px"}}>we aim to provide comprehensive solutions </h3>
          
           <div className='help' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
-          <h4 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":""}}>We help in big Data Consulting</h4>
+          <h4 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":""}}>We believe in Collaborative Approach</h4>
       </div>
       {/* <div className='proje' style={{marginTop: isSmallScreen ?  '130%':'',}}>
         <h1 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "-40%":"", width: isSmallScreen? "50px":""}}>IA Rwanda Projects Across the World</h1>
@@ -251,7 +267,7 @@ import Rating from './Rating';
         </div>
       </div> */}
       
-      <div className='wapi' style={{marginTop:"40%"}}>
+      <div className='wapi' style={{marginTop:"30%"}}>
       <div className='rico' style={{marginTop: isSmallScreen ?  '-20%':'', }}>
             <div className='coloi'></div>
             <h1>Our Blog</h1>

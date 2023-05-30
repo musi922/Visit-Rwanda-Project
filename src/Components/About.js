@@ -107,8 +107,10 @@ const About = () => {
         </div>
         <div className='hup'>
           <h1 style={{marginTop: isSmallScreen?"-34%":"", marginLeft: isSmallScreen?"-40%":"", fontSize: isSmallScreen?"25px":"", position: isSmallScreen?"absolute":"",}}> Company mission</h1>
-          <p style={{marginTop: isSmallScreen?"-44%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":""}}>“Success is based on pro-active and dedicated teamwork in a professional and ethical environment...” </p>
-          <h2 style={{marginTop: isSmallScreen?"-74%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>We strongly believe that success is based on pro-active and dedicated teamwork in a professional and ethical environment that leads to creative solutions and fully deserved rewards. This said, we always focus on safety, quality, a detailed approach, and above all, diligent handling of budgetary means to maintain high standards at all levels of our activities, especially in dealings with employees, suppliers, subcontractors, and customers.</h2>
+          <p style={{marginTop: isSmallScreen?"-44%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":""}}>“Success is based on pro-active and dedicated teamwork in a professional and ethical environment...” </p><br></br>
+          <h2 style={{marginTop: isSmallScreen?"-74%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>Our mission is to provide comprehensive data services and solutions to businesses across various industries, leveraging cutting-edge technologies and expertise. We strive to collect, analyze, and manage data effectively, enabling our clients to gain valuable insights, optimize their operations, and drive innovation. 
+
+</h2>
         </div>
         <div className='vis' style={{marginTop: isSmallScreen?"20%":""}}>
         <h1 style={{fontSize: isSmallScreen?"25px":"",  marginLeft: isSmallScreen?"-38%":"" }}> Company culture</h1>
@@ -124,7 +126,9 @@ const About = () => {
         <div className='hai' style={{marginTop: isSmallScreen?"10%":""}}>
         <img src={hai} style={{height:"60vh", width:"100%", border:"1px solid transparent", borderRadius:"8px"}}/>
         <h1 style={{fontSize: isSmallScreen?"25px":"", marginTop: isSmallScreen?"-74%":"",  marginLeft: isSmallScreen?"9%":"", width: isSmallScreen?"250px":""}}>Company vision </h1>
-        <p style={{marginTop: isSmallScreen?"-64%":"", marginLeft: isSmallScreen?"6%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":"" , }}>We aim to be a leading contractor in Rwanda by focusing on the timely implementation of our projects and meeting the expectations and requirements of our customers at the highest possible level.</p>
+        <p style={{marginTop: isSmallScreen?"-64%":"", marginLeft: isSmallScreen?"6%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":"" , }}>To empower businesses and individuals through data-driven insights and solutions, enabling them to make informed decisions and achieve their maximum potential in an increasingly data-centric world.
+
+</p>
         </div>
         <div className='founders'>
           <h1 style={{fontSize: isSmallScreen?"25px":"", marginTop: isSmallScreen?"4%":"",  marginLeft: isSmallScreen?"9%":"",}}>Our Founders </h1>

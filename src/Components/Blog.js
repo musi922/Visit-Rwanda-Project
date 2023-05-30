@@ -107,7 +107,7 @@ const Blog = () => {
         </div>
       </div>
       <div className='intro' style={{marginTop: isSmallScreen ? '-80%' :"", width: isSmallScreen?"350px":""}}>
-        <h1 style={{fontSize: isSmallScreen ? '22px' :"", width: isSmallScreen ? '262px' :""}}>Intelligence Analytics news</h1>
+        <h1 style={{fontSize: isSmallScreen ? '22px' :"", width: isSmallScreen ? '262px' :""}}>Exec Rwanda Latest news</h1>
         <p style={{fontSize: isSmallScreen ? '14px' :"", width: isSmallScreen ? '350px' :""}}>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam id elit hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed, faucibus vel elit Integer adipiscing erat eget risus sollicitudin pellentesque non erat. Maecenas nibh dolor malesuada sagittis accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere.</p>
       </div>
        <div className='newsi' style={{ marginTop: isSmallScreen ? '40%' :""}}>

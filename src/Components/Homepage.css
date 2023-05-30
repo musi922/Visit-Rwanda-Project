@@ -397,7 +397,7 @@ body{
     margin-left: 250%;
     margin-top: 76%;
     position: absolute;
-    /* background-image: url("../images/koooo.jpg"); */
+    background-image: url("../images/koooo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -598,15 +598,15 @@ body{
   }
   .about h2{
     position: absolute;
-    width: 294px;
+    width: 594px;
     height: 93px;
-    left: 0px;
-    top: 38px;
+    left: 30%;
+    top: -30px;
 
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 33px;
     line-height: 41px;
 
     color: #1C1F35;
@@ -616,15 +616,15 @@ body{
     position: absolute;
     width: 39.32px;
     height: 43.38px;
-    margin-left: 60%;
-    top: 25px;
+    margin-left: -10%;
+    top: 45px;
 
   }
   .saf{
     position: absolute;
     width: 49.32px;
     height: 53.38px;
-    margin-left: 25%;
+    margin-left: -5%;
     margin-top: 20%;
 
   }
@@ -633,9 +633,10 @@ body{
     border-bottom: none;
     border-top: none;
     border-right: none;
-    margin-left: 24%;
+    margin-left: -14%;
+    margin-top: 10%;
     width: 295px;
-    height: 115px;
+    height: 165px;
 
 
     /* Inside auto layout */
@@ -646,9 +647,11 @@ body{
   }
   .data h1{
     
-    width: 267px;
+    width: 347px;
     height: 30px;
-    margin-left: 3%;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -4%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -671,6 +674,7 @@ body{
 width: 270px;
 height: 72px;
 margin-left: 3%;
+margin-top: -1%;
 font-family: 'Krub';
 font-style: normal;
 font-weight: 500;
@@ -693,10 +697,10 @@ order: 1;
     border-bottom: none;
     border-top: none;
     border-right: none;
-    margin-left: 74%;
-    margin-top: -12%;
+    margin-left: 12%;
+    margin-top: 11%;
     width: 295px;
-    height: 115px;
+    height: 165px;
 
 
     /* Inside auto layout */
@@ -707,9 +711,11 @@ order: 1;
   }
   .bi h1{
     
-    width: 267px;
+    width: 367px;
     height: 30px;
-    margin-left: 3%;
+    margin-left: 1%;
+    margin-top: -5%;
+    position: absolute;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -729,9 +735,10 @@ order: 1;
   }
   .bi p{
     
-width: 270px;
+width: 340px;
 height: 72px;
 margin-left: 3%;
+margin-top: -1%;
 font-family: 'Krub';
 font-style: normal;
 font-weight: 500;
@@ -754,10 +761,10 @@ order: 1;
     border-bottom: none;
     border-top: none;
     border-right: none;
-    margin-left: 34%;
-    margin-top: 2%;
+    margin-left: 79%;
+    margin-top: -16%;
     width: 295px;
-    height: 115px;
+    height: 165px;
 
 
     /* Inside auto layout */
@@ -770,7 +777,9 @@ order: 1;
     
     width: 267px;
     height: 30px;
-    margin-left: 3%;
+    margin-left: 1%;
+    margin-top: -5%;
+    position: absolute;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -789,6 +798,70 @@ order: 1;
 
   }
   .train p{
+    
+width: 270px;
+height: 72px;
+margin-left: 3%;
+margin-top: -1%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .trai{
+    border: 2px solid #D8D8D8;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 295px;
+    height: 165px;
+    
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .trai h1{
+    
+    width: 367px;
+    height: 30px;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -4%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .trai p{
     
 width: 270px;
 height: 72px;
@@ -822,10 +895,11 @@ order: 1;
     border-bottom: none;
     border-top: none;
     border-right: none;
-    margin-left: 74%;
-    margin-top: -12%;
+    margin-left: -3.4%;
+    margin-top: 3%;
     width: 295px;
-    height: 115px;
+    height: 165px;
+    
 
 
     /* Inside auto layout */
@@ -836,9 +910,75 @@ order: 1;
   }
   .cons h1{
     
+    width: 367px;
+    height: 30px;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -5%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    
+    /* identical to box height */
+
+
+    color: #1C1F35;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+
+  }
+  .cons p{
+    
+width: 250px;
+margin-top: -1%;
+height: 72px;
+margin-left: 3%;
+font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+  }
+  .con{
+    border: 2px solid #D8D8D8;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 79%;
+    margin-top: -15%;
+    width: 295px;
+    height: 165px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+
+  }
+  .con h1{
+    
     width: 267px;
     height: 30px;
-    margin-left: 3%;
+    margin-left: 1%;
+    margin-top: -5%;
+    position: absolute;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -856,11 +996,12 @@ order: 1;
     order: 0;
 
   }
-  .cons p{
+  .con p{
     
-width: 270px;
+width: 340px;
 height: 72px;
 margin-left: 3%;
+margin-top: -1%;
 font-family: 'Krub';
 font-style: normal;
 font-weight: 500;
@@ -912,7 +1053,7 @@ background-color: #69cce4;
     border-radius: 10px;
     width: 1000px;
     margin-left: 20%;
-    margin-top: -5%;
+    margin-top: -14%;
     position: absolute;
     background-color: #FFFFFF;
     box-shadow: 0px -8px 34px -4px rgba(0, 0, 0, 0.5); /* This adds a large shadow on top of the element */
@@ -936,7 +1077,7 @@ background-color: #69cce4;
     width: 76px;
     height: 17px;
     left: 66px;
-    top:8%;
+    top:7%;
 
     font-family: 'Rubik';
     font-style: normal;
@@ -957,7 +1098,7 @@ margin-left: 5%;
 font-family: 'Rubik';
 font-style: normal;
 font-weight: 600;
-font-size: 35px;
+font-size: 30px;
 line-height: 41px;
 
 color: #1C1F35;
@@ -973,6 +1114,7 @@ flex-grow: 0;
     width: 464px;
     height: 144px;
     margin-left: 5%;
+    margin-top: -2%;
 
     font-family: 'Krub';
     font-style: normal;
@@ -1007,7 +1149,7 @@ flex-grow: 0;
     border: 1px solid transparent;
     width: 243px;
     height: 217px;
-    margin-left: 50%;
+    margin-left: 52%;
     margin-top: -15%;
     background-image: url("../images/Photocut.png");
     background-repeat: no-repeat;
@@ -1120,9 +1262,9 @@ flex-grow: 0;
     
     width: 96px;
     height: 23px;
-    margin-left: 50%;
+    margin-left: 10%;
     background: rgba(61, 83, 109, 0.5);
-    margin-top: -7%;
+    margin-top: -4%;
     position: absolute;
   }
   .coloi{

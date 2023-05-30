@@ -265,7 +265,7 @@ body{
   }
   
   .bodys {
-    height: 130vh;
+    height: 150vh;
   width: 100%;
   background-color: #F4F4F4;
   }
@@ -501,7 +501,7 @@ body{
     width: 49.32px;
     height: 53.38px;
     margin-left: 14%;
-    margin-top: 20%;
+    margin-top: 26%;
 
   }
 
@@ -706,7 +706,7 @@ order: 1;
     width: 39.32px;
     height: 33.38px;
     margin-left: 50%;
-    margin-top: 20%;
+    margin-top: 26%;
 
   }
   .safasi{
@@ -714,7 +714,7 @@ order: 1;
     width: 39.32px;
     height: 33.38px;
     margin-left: 84%;
-    margin-top: 20%;
+    margin-top: 26%;
 
   }
   .conss{
@@ -723,7 +723,7 @@ order: 1;
     border-top: none;
     border-right: none;
     margin-left: 9%;
-    margin-top: 2%;
+    margin-top: 12%;
     width: 295px;
     height: 115px;
 

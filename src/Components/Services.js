@@ -110,48 +110,51 @@ const Services = () => {
       <img src={yeah} className='safas' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '144%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
       <img src={you} className='safasi' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '284%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
       <div className='datas' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '10px':""}}>
-        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Data Management</h1>
-        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>Following the quality of our service thus having gained trust of our many clients.</p>
+        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":"", width:"340px"}}>Collecting and analyzing data</h1>
+        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>we specialize in providing comprehensive data collection and analysis services. We understand the importance of data as a strategic asset for businesses today. Our expert team is skilled in collecting data from various sources, ensuring its accuracy, relevance</p>
         <img src={data} className='safee'  style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '260%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
       </div>
       <div className='bis' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
-        <h1>Data integration</h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <h1 style={{width:"340px"}}>Business intelligence activities</h1>
+        <p>we excel in performing business intelligence activities to transform raw data into actionable information. We employ advanced analytics techniques to extract valuable insights</p>
         
       </div>
       <div className='trains' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
         <h1 style={{ width: isSmallScreen ? '300px':""}}>
-        Data cleaning and processing
+        Developing data strategies
         </h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <p>Data is a valuable resource, and developing a comprehensive data strategy is crucial for businesses to leverage its full potential. We specialize in assisting businesses in developing data strategies tailored to their specific objectives and needs.
+</p>
         <img src={Iconbb} className='safeds' style={{marginLeft: isSmallScreen ? '34%':"", }}/>
           
       </div>
-      <div className='conss' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
-        <h1>
-        Data Dashboards
+      <div className='conss' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':"", marginTop:"8%"}}>
+        <h1 style={{width:"370px"}}>
+        Creating interactive dashboards
         </h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <p>Visualizing data is key to understanding complex information and making data-driven decisions.we excel in creating interactive and real-time dashboards that provide a comprehensive view of your business performance</p>
 
       </div>
-      <div className='consi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
-        <h1>
-        Data analysis
+      <div className='consi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':"", marginTop:"8%"}}>
+        <h1 style={{width:"370px"}}>
+        Building data-related products
         </h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <p>: In the era of data-driven innovation, businesses are seeking customized data-related products to solve their specific challenges. We specialize in building data-related products tailored to your unique requirements.
+
+</p>
 
       </div>
       <div className='consis' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '4%':""}}>
-        <h1>
-        Consulting and training
+        <h1 style={{width:"370px"}}>
+        Training in data-related fields
         </h1>
-        <p>Following the quality of our service thus having gained trust of our many clients.</p>
+        <p>At Exec, we offer comprehensive training programs in data-related fields to empower individuals and organizations with the skills and knowledge required to thrive in the data-driven world.</p>
 
       </div>
       
       </div>
       <div className='how' style={{marginTop: isSmallScreen ?  '10%':''}}>
-        <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>IA Group Services Decription</h1>
+        <h1 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '20%':'', width: isSmallScreen?"250px":""}}>Exec Rwanda Services Decription</h1>
         <p style={{fontSize: isSmallScreen ?  '12px':'',marginLeft: isSmallScreen ?  '5%':'', width: isSmallScreen?"350px":""}}>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, 
