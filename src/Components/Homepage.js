@@ -18,7 +18,7 @@ import dash from "../images/dash.jpg";
 import dd from "../images/dd.jpeg";
 import science from "../images/science.jpg";
 import why from "../images/why.jpg";
-import { FaBars, FaTimes} from "react-icons/fa"
+import { FaBars, FaTimes} from "react-icons/zzfa"
 import { useMediaQuery } from 'react-responsive';
 import Logoz from "../images/Logoz.png";
 import {GoLocation} from "react-icons/go"
@@ -151,20 +151,20 @@ import Rating from './Rating';
             <p1 style={{color:"#d6ebff", fontSize:"11px",fontWeight:"bold", position:"absolute", marginTop:"6%", marginLeft:"30%"}}>Become a member:<br></br>& Aparticipant</p1>
             </div>
             <div className='mounta'>
-              <p1 style={{color:"white", fontSize:"14px", marginTop:"6%", marginLeft:"6%", position:"absolute"}}> Kigali-Rwanda</p1>
-              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"6%", position:"absolute"}}>www.execrwanda.org</p1>
-             <p1 style={{color:"white", fontSize:"14px", marginTop:"10%", marginLeft:"50%", position:"absolute"}}>Execrwanda@gmail.com</p1>
-              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"50%", position:"absolute"}}>   0785842428</p1>  
+              <p1 style={{color:"white", fontSize:"14px", marginTop:"6%", marginLeft:"6%", position:"absolute"}}><GoLocation style={{color:"#727c38", fontSize:"18px", marginTop:"12%"}}/> Kigali-Rwanda</p1>
+              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"6%", position:"absolute"}}><TbWorld style={{color:"#727c38", fontSize:"20px"}}/>www.execrwanda.org</p1>
+             <p1 style={{color:"white", fontSize:"14px", marginTop:"10%", marginLeft:"50%", position:"absolute"}}><HiOutlineMail style={{color:"#727c38", fontSize:"20px"}}/>Execrwanda@gmail.com</p1>
+              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"50%", position:"absolute"}}><BsTelephoneForward style={{color:"#727c38", fontSize:"20px"}}/>   0785842428</p1>  
             </div>
             <div className='monte'>
               <div className='mon'>
-              <h1 style={{color:"white", fontWeight:"bold", fontSize:"16px", position:"absolute", marginTop:"2px"}}> Our Vision</h1>
+              <h1 style={{color:"white", fontWeight:"bold", fontSize:"16px", position:"absolute", marginTop:"2px"}}><BsFillEnvelopeCheckFill/> Our Vision</h1>
                 <div className='mov'>
                   <p1 style={{color:"#343a6b", marginTop:"4%", marginLeft:"4%", position:"absolute"}}>To empower businesses and individuals through data-driven insights and solutions,  </p1>
                 </div>
               </div>
               <div className='mons'>
-              <h1 style={{color:"white", fontWeight:"bold", fontSize:"16px", position:"absolute", marginTop:"2px"}}> Our Mission</h1>
+              <h1 style={{color:"white", fontWeight:"bold", fontSize:"16px", position:"absolute", marginTop:"2px"}}><BsBox2/> Our Mission</h1>
 
                 <div className='movs'>
                 <p1 style={{color:"#343a6b", marginTop:"4%", marginLeft:"4%", position:"absolute"}}>To provide comprehensive data services and solutions to businesses across various industries,   </p1>

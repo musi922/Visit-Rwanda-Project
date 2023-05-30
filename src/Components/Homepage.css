@@ -197,7 +197,6 @@ body{
     font-weight: bold;
     font-size: 18px;
     line-height: 135.02%;
-    /* identical to box height, or 22px */
 
 
     color: #f1f0f0;
@@ -337,7 +336,7 @@ body{
     /* flex: none;
     order: 0;
 
-  } */ */
+  } */
   .logistics h2{
     width: 404px;
     height: 213px;
