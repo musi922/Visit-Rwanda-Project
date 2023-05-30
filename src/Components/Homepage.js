@@ -18,7 +18,7 @@ import dash from "../images/dash.jpg";
 import dd from "../images/dd.jpeg";
 import science from "../images/science.jpg";
 import why from "../images/why.jpg";
-import { FaBars, FaTimes} from "react-icons/zzfa"
+import { FaBars, FaTimes} from "react-icons/fa"
 import { useMediaQuery } from 'react-responsive';
 import Logoz from "../images/Logoz.png";
 import {GoLocation} from "react-icons/go"
