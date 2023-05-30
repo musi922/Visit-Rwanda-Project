@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { useEffect } from "react";
 import "./Homepage.css"
 import Nav from './Nav'
 import { FiInstagram } from "react-icons/fi"
@@ -27,6 +28,8 @@ import {HiOutlineMail} from "react-icons/hi"
 import {TbWorld} from "react-icons/tb"
 import {BsFillEnvelopeCheckFill} from "react-icons/bs"
 import {BsBox2} from "react-icons/bs"
+import FadeLoader from "react-spinners/FadeLoader";
+import { useState, } from "react";
 
 
 import Projectcard from "./Projectcard"
@@ -37,6 +40,17 @@ import Rating from './Rating';
 
 
  export const Homepage = () => {
+  const [loading, setLoading] = useState(false)
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(()=>{
+            setLoading(false)
+
+        }, 5000)
+
+    }, [])
+
+
   const companyRating = 5; 
   const navRef = useRef();
   const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
@@ -47,6 +61,23 @@ import Rating from './Rating';
     navRef.current.classList.toggle("responsive_submenu");
   }
   return (
+    <>
+    {
+           
+      loading ?
+      <div className="loading">
+      <FadeLoader 
+
+  
+  color={"#d03677"}
+  loading={loading}
+  size={110}
+  aria-label="Loading Spinner"
+  data-testid="loader"
+/>
+<h1 style={{color: "white"}}>Exec Loading</h1>
+</div>
+:
     <div>
       {/* <div className='nav'>
       <Nav/>
@@ -301,6 +332,9 @@ import Rating from './Rating';
         <Footer/>
       </div>
     </div>
+    }
+    </>
   )
+    
 }
 
