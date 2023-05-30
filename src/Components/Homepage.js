@@ -265,7 +265,7 @@ import Rating from './Rating';
       </div>
       
       </div>
-      <div className='tot' style={{marginTop: isSmallScreen ?  '270%':'', marginTop:"15%"}}>
+      <div className='tot' style={{marginTop: isSmallScreen ?  '270%':'', marginTop:"6%"}}>
       <div className='why' style={{marginTop: isSmallScreen ?  '8%':'',marginLeft: isSmallScreen ?  '4%':''}}>
        
        </div>
