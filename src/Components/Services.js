@@ -107,8 +107,8 @@ const Services = () => {
       <h2 style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '150px':"", marginTop: isSmallScreen ? '-24%':"" , marginLeft: isSmallScreen ? '15%':""}}>Our Data Services</h2>
       <img src={Icon} className='safes' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '4%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
       <img src={icons} className='safess' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '74%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
-      <img src={yeah} className='safas' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '144%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
-      <img src={you} className='safasi' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '284%':"",marginLeft: isSmallScreen ? '34%':"",}}/>
+      <img src={yeah} className='safas' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '144%':"",marginLeft: isSmallScreen ? '34%':"", marginTop:"25%"}} />
+      <img src={you} className='safasi' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '284%':"",marginLeft: isSmallScreen ? '34%':"", marginTop:"26%"}}/>
       <div className='datas' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '10px':""}}>
         <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":"", width:"340px"}}>Collecting and analyzing data</h1>
         <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>we specialize in providing comprehensive data collection and analysis services. We understand the importance of data as a strategic asset for businesses today. Our expert team is skilled in collecting data from various sources, ensuring its accuracy, relevance</p>
