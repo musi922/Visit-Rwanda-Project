@@ -46,7 +46,7 @@ import Rating from './Rating';
         setTimeout(()=>{
             setLoading(false)
 
-        }, 5000)
+        }, 6000)
 
     }, [])
 
