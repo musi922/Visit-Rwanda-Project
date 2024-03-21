@@ -32,9 +32,9 @@ const Contact = () => {
       </div> */}
       <div className='menus-bar' style={{height:"10vh"}}>
       <div className='image' >
-            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+           
         </div>
-        <div className='submenus' ref={navRef} style={{marginTop:"6px", marginLeft:"-14%", height: "3vh"}}>
+        <div className='submenus' ref={navRef} style={{marginTop:"6px", marginLeft:"-24%", height: "3vh"}}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -49,16 +49,7 @@ const Contact = () => {
         <Link to={"/Blog"} style={{textDecoration:"none"}}><h1>Blog</h1></Link>
         </div>
         <div className='contacts'>
-        <Link to={"/contact"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
-  height: "32px",
-  border:"4px solid #FFB82B",
-  borderRadius: "5px",
-  borderLeft:"none",
-  borderTop:"none",
-  borderRight:"none",
-  textAlign: "center",
-  alignItems:"center",  transform: "translateX(2%)"
-  }}>Contact us</h1></Link>
+        <Link to={"/contact"}  style={{textDecoration:"none",}}><h1 >Contact us</h1></Link>
         </div>
         <div className='Careerss'>
         <Link to={"/Careers"} style={{textDecoration:"none"}}><h1>Careers</h1></Link>
@@ -96,10 +87,10 @@ const Contact = () => {
         <div className='logis'>
             <div className='colos' style={{marginLeft: isSmallScreen ? '-10px':"",}}></div>
             <h1>FAQ</h1>
-            <h2 style={{fontSize: isSmallScreen ?  '20px':'',marginLeft: isSmallScreen ?  '-10%':'',marginTop: isSmallScreen ?  '343%':'', width: isSmallScreen?"290px":"", position: isSmallScreen?"absolute":""}}>Where can I Find your IA services?</h2>
+            <h2 style={{fontSize: isSmallScreen ?  '20px':'',marginLeft: isSmallScreen ?  '-10%':'',marginTop: isSmallScreen ?  '343%':'', width: isSmallScreen?"290px":"", position: isSmallScreen?"absolute":""}}>Where can I Find your visit rwanda services?</h2>
             <p style={{fontSize: isSmallScreen ?  '14px':'', width: isSmallScreen?"340px":"", marginLeft: isSmallScreen ?  '-20%':'',}}>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of .</p>
             <h3 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '18%':'', width: isSmallScreen?"250px":""}}>What Other Services available?        <GrNext style={{marginLeft:"15%", position:"absolute"}}/></h3>
-            <h4 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '16%':'', width: isSmallScreen?"250px":""}}>Where is the IA Group Located?        <GrNext style={{marginLeft:"14%", position:"absolute"}}/></h4>
+            <h4 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '16%':'', width: isSmallScreen?"250px":""}}>Where is the VR Group Located?        <GrNext style={{marginLeft:"14%", position:"absolute"}}/></h4>
             <h5 style={{fontSize: isSmallScreen ?  '18px':'',marginLeft: isSmallScreen ?  '10%':'',marginTop: isSmallScreen ?  '16%':'', width: isSmallScreen?"250px":""}}>What are the Terms used at Ia?        <GrNext style={{marginLeft:"16%", position:"absolute"}}/></h5>
 
 
@@ -109,9 +100,8 @@ const Contact = () => {
           </div>
           <div className='lev' style={{marginTop: isSmallScreen ? '120%':"", marginLeft: isSmallScreen ? '15%':"", width: isSmallScreen ? '280px':"",}}>
             <img src={lets} style={{marginLeft:"15%", marginTop:"5%"}}/>
-            <h1 style={{fontSize: isSmallScreen ? "16px":"", width: isSmallScreen ? '280px':"", marginLeft: isSmallScreen ? '10%':"",  marginTop: isSmallScreen ? '4%':"",}}>You need any help? get free consultation</h1>
-            <img src={yal} style={{height:"40px", marginLeft:"15%" }}/>
-            <h3 style={{ marginTop: isSmallScreen ? '-58%':"",}}>Have Any Questions : +250799340499</h3>
+            <h1 style={{fontSize: isSmallScreen ? "16px":"", width: isSmallScreen ? '280px':"", marginLeft: isSmallScreen ? '10%':"",  marginTop: isSmallScreen ? '4%':"",}}>You need any help?<br></br> consultation</h1>
+            
             <div className='explo'>
               <div className='roti'></div>
               <h1 style={{ marginTop: isSmallScreen ? '2%':"",  width: isSmallScreen ? '200px':"",}}>Contact us</h1>
@@ -135,7 +125,7 @@ const Contact = () => {
 
           </div>
           <div className='iyo' style={{width: isSmallScreen?"300px":""}}>
-            <h1 style={{fontSize: isSmallScreen ?  '13px':'', marginLeft: isSmallScreen ? '5%':"",marginTop: isSmallScreen ? '8%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"",}}>Contact@logistics.com</h1>
+            <h1 style={{fontSize: isSmallScreen ?  '13px':'', marginLeft: isSmallScreen ? '5%':"",marginTop: isSmallScreen ? '8%':"", width: isSmallScreen ? '50px':"", height: isSmallScreen ? '5vh':"",}}>visitrwanda.com</h1>
             <h2 style={{fontSize: isSmallScreen ?  '12px':'', marginLeft: isSmallScreen ? '48%':"",marginTop: isSmallScreen ? '8%':"", width: isSmallScreen ? '170px':"", height: isSmallScreen ? '5vh':"", position: isSmallScreen?"absolute":""}}>Call us: +250799340499</h2>
             <h3 style={{display: isSmallScreen?"none":""}}>Mon - Sat 9.00 - 18.00 Sunday Closed</h3>
           </div>
@@ -154,7 +144,7 @@ const Contact = () => {
 
             </div>
       </div>
-      <div className='sif' style={{marginTop: isSmallScreen ? '260%':"", width: isSmallScreen ?  '365px':'', marginLeft: isSmallScreen ?  '2px':'', }}>
+      <div className='sif' style={{marginTop: isSmallScreen ? '260%':"", width: isSmallScreen ?  '365px':'', marginLeft: isSmallScreen ?  '2px':'',marginTop:"80%" }}>
        <Footer/>
       </div>
     </div>

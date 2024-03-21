@@ -44,9 +44,9 @@ const Blog = () => {
       </div> */}
       <div className='menus-bar' style={{height:"10vh"}}>
       <div className='image' >
-            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+           
         </div>
-        <div className='submenus'  ref={navRef} style={{ marginLeft:"-16%", marginTop: "16px",background: isSmallScreen? "#070d29":"",height: isSmallScreen? "50vh":"",width: isSmallScreen? "330px":""}}>
+        <div className='submenus'  ref={navRef} style={{ marginLeft:"-46%", marginTop: "16px",background: isSmallScreen? "#070d29":"",height: isSmallScreen? "50vh":"",width: isSmallScreen? "330px":""}}>
         <div className='homes'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -59,16 +59,7 @@ const Blog = () => {
         </div>
         <div className='projectss'>
         
-        <Link to={"/AboutIA"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
-  height: "32px",
-  border:"4px solid #FFB82B",
-  borderRadius: "5px",
-  borderLeft:"none",
-  borderTop:"none",
-  borderRight:"none",
-  textAlign: "center",
-  alignItems:"center",  transform: "translateX(2%)"
-  }}>Blog</h1></Link>
+        <Link to={"/AboutIA"}  style={{textDecoration:"none",}}><h1>Blog</h1></Link>
         </div>
         <div className='contacts'>
         <Link to={"/contact"} style={{textDecoration:"none"}}><h1>Contact us</h1></Link>
@@ -107,27 +98,35 @@ const Blog = () => {
         </div>
       </div>
       <div className='intro' style={{marginTop: isSmallScreen ? '-80%' :"", width: isSmallScreen?"350px":""}}>
-        <h1 style={{fontSize: isSmallScreen ? '22px' :"", width: isSmallScreen ? '262px' :""}}>Exec Rwanda Latest news</h1>
+        <h1 style={{fontSize: isSmallScreen ? '22px' :"", width: isSmallScreen ? '262px' :""}}>visit Rwanda Latest news</h1>
         <p style={{fontSize: isSmallScreen ? '14px' :"", width: isSmallScreen ? '350px' :""}}>Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam id elit hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed, faucibus vel elit Integer adipiscing erat eget risus sollicitudin pellentesque non erat. Maecenas nibh dolor malesuada sagittis accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere.</p>
       </div>
        <div className='newsi' style={{ marginTop: isSmallScreen ? '40%' :""}}>
+       <div>
+          
+          <Newscard imgs={amer} dates="08" day="Thursday" haha="Launch Announcement" huhu=" Discover the Heart of Africa: Visit Rwanda officially launches as your premier guide to exploring the beauty and diversity of Rwanda. Start your journey today" 
+        />
+      
+        </div>
+  
+
+       
         <div>
-        <Newscard imgs={amer} dates="08" day="Thursday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" yu=". Reliable & experienced staffs"/>
+          
+          <Newscard imgs={amer} dates="08" day="Thursday" haha="Cultural Festivals" huhu=" Discover the Heart of Africa: Visit Rwanda officially launches as your premier guide to exploring the beauty and diversity of Rwanda. Start your journey today" 
+        />
+      
         </div>
         <div>
-        <Newscard imgs={bed} dates="06" day="Tuesday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" yu=". Reliable & experienced staffs"/>
+          
+          <Newscard imgs={amer} dates="08" day="Thursday" haha="Conservation Success Stories:" huhu=" Discover the Heart of Africa: Visit Rwanda officially launches as your premier guide to exploring the beauty and diversity of Rwanda. Start your journey today" 
+        />
+      
         </div>
-        <div>
-        <Newscard imgs={breaks} dates="05" day="Monday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" yu=". Reliable & experienced staffs"/>
-        </div>
-        <div>
-        <Newscard imgs={newsnow} dates="04" day="Monday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" yu=". Reliable & experienced staffs"/>
-        </div>
+        
        
         </div>
-        <div style={{marginTop:"28%",  marginTop: isSmallScreen ? '90%' :""}}>
-          <Footer/>
-          </div> 
+        
     </div>
   )
 }

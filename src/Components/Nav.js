@@ -34,7 +34,7 @@ const Nav = () => {
                 </div>
                 <div>
                     <h1>Email
-                        <br></br>I A group@gmail.com
+                        <br></br>I visitrwanda@gmail.com
                     </h1>
                 </div>
 

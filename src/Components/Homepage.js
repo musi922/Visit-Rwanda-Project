@@ -75,7 +75,7 @@ import Rating from './Rating';
   aria-label="Loading Spinner"
   data-testid="loader"
 />
-<h1 style={{color: "white"}}>Exec Loading</h1>
+<h1 style={{color: "white"}}>visit Rwanda Loading</h1>
 </div>
 :
     <div>
@@ -84,20 +84,11 @@ import Rating from './Rating';
       </div> */}
       <div className='menu-bar' style={{height:"10vh"}}>
       <div className='image' >
-            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+            
         </div>
-        <div className='submenu' ref={navRef} style={{marginLeft:"-16%", marginTop: "16px"}}>
+        <div className='submenu' ref={navRef} style={{marginLeft:"-28%", marginTop: "16px"}}>
         <div className='home'>
-        <Link to={"/"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
-  height: "32px",
-  border:"4px solid #FFB82B",
-  borderRadius: "5px",
-  borderLeft:"none",
-  borderTop:"none",
-  borderRight:"none",
-  textAlign: "center",
-  alignItems:"center",  transform: "translateX(2%)"
-  }}>Home</h1></Link>
+        <Link to={"/"}  style={{textDecoration:"none",}}><h1 >Home</h1></Link>
         </div>
         <div className='Services'>
             <Link to={"/IAservices"}  style={{textDecoration:"none"}}><h1>Services</h1></Link>
@@ -141,7 +132,7 @@ import Rating from './Rating';
             {/* <div className='logs'></div> */}
             {/* <div className='color'></div> */}
             
-            <h1 style={{color:"#343a40", fontSize:"36px", fontWeight: "bold", fontFamily:"sans-serif", width:"460px", marginTop:"-8%", marginLeft:"28%",position:"absolute" }}>Exec Rwanda </h1>
+            <h1 style={{color:"#343a40", fontSize:"26px", fontWeight: "bold", fontFamily:"sans-serif", width:"460px", marginTop:"-8%", marginLeft:"18%",position:"absolute" }}>Visit Rwanda </h1>
             
             {/* <h2 style={{ color:"black",fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2> */}
             {/* <h3 style={{ color:"black",display: isSmallScreen ? 'none' : '' , }}>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3> */}
@@ -153,22 +144,19 @@ import Rating from './Rating';
             </div> */}
             <div className='def'>
               <div className='defo'>
-                <h1 style={{color: "black", letterSpacing:"2px", marginTop:"10%"}}>What is <span style={{color:"#FFB629"}}>Exec Rwanda ?</span></h1>
+                <h1 style={{color: "black", letterSpacing:"2px", marginTop:"10%"}}>What is <span style={{color:"#FFB629"}}>Visit Rwanda ?</span></h1>
               </div>
               <div className='dud'>
-                <p1 style={{width:"100%", color:"black", letterSpacing:"1px", fontSize:"bold", fontFamily: "Arial, sans-serif"}}>Exec Rwanda is a data company that offers a range of services,
-                  including collecting and analyzing data, performing business
-                intelligence tasks, managing data, developing data strategies,
-                creating interactive and real-time dashboards, building data-related products,
-               and providing training in data-related fields</p1>
+                <p1 style={{width:"100%", color:"black", letterSpacing:"1px", fontSize:"bold", fontFamily: "Arial, sans-serif"}}>Visit Rwanda is acompany that
+                focuses directly on promoting Rwanda as a premier destination for travelers seeking unique and enriching experiences. </p1>
                <h1 style={{color:"#FFB629", marginLeft:"-20%"}}>Read more</h1>
-               <h3 style={{color:"#57595c",marginTop:"-8%", fontSize:"20px", fontWeight:"bold"}}>Sector</h3>
-               <h3 style={{color:"#57595c",marginTop:"-2%", fontSize: "18px", fontWeight:"bold"}}>Rate of the Company</h3>
-               <h3 style={{color:"#79759d",marginLeft:"30%" ,marginTop:"-8%",}}>Data Company</h3>
+               <h3 style={{color:"#57595c",marginTop:"-20%", fontSize:"20px", fontWeight:"bold"}}>Sector</h3>
+               <h3 style={{color:"#57595c",marginTop:"-12%", fontSize: "18px", fontWeight:"bold"}}>Rate of the Company</h3>
+               <h3 style={{color:"#79759d",marginLeft:"30%" ,marginTop:"-20%",}}>Tourist Company</h3>
               
                <div style={{marginLeft:"50%", marginTop:"13%"}}>
                <Rating rating={companyRating} />
-               <h3 style={{color:"#79759d",marginLeft:"1%", marginTop:"2%", fontSize:"14px", fontWeight:"bold"}}>Average: 5 (2 votes)</h3>
+               
                </div>
               </div>
             </div>
@@ -183,22 +171,22 @@ import Rating from './Rating';
             </div>
             <div className='mounta'>
               <p1 style={{color:"white", fontSize:"14px", marginTop:"6%", marginLeft:"6%", position:"absolute"}}><GoLocation style={{color:"#727c38", fontSize:"18px", marginTop:"12%"}}/> Kigali-Rwanda</p1>
-              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"6%", position:"absolute"}}><TbWorld style={{color:"#727c38", fontSize:"20px"}}/>www.execrwanda.org</p1>
-             <p1 style={{color:"white", fontSize:"14px", marginTop:"10%", marginLeft:"50%", position:"absolute"}}><HiOutlineMail style={{color:"#727c38", fontSize:"20px"}}/>Execrwanda@gmail.com</p1>
-              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"50%", position:"absolute"}}><BsTelephoneForward style={{color:"#727c38", fontSize:"20px"}}/>   0785842428</p1>  
+              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"6%", position:"absolute"}}><TbWorld style={{color:"#727c38", fontSize:"20px"}}/>www.visitrwanda.org</p1>
+             <p1 style={{color:"white", fontSize:"14px", marginTop:"10%", marginLeft:"50%", position:"absolute"}}><HiOutlineMail style={{color:"#727c38", fontSize:"20px"}}/>visitrwanda@gmail.com</p1>
+              <p1 style={{color:"white", fontSize:"14px", marginTop:"22%", marginLeft:"50%", position:"absolute"}}><BsTelephoneForward style={{color:"#727c38", fontSize:"20px"}}/>   0799340499</p1>  
             </div>
             <div className='monte'>
               <div className='mon'>
               <h1 style={{color:"white", fontWeight:"bold", fontSize:"16px", position:"absolute", marginTop:"2px"}}><BsFillEnvelopeCheckFill/> Our Vision</h1>
                 <div className='mov'>
-                  <p1 style={{color:"#343a6b", marginTop:"4%", marginLeft:"4%", position:"absolute"}}>To empower businesses and individuals through data-driven insights and solutions,  </p1>
+                  <p1 style={{color:"#343a6b", marginTop:"4%", marginLeft:"4%", position:"absolute"}}>To position Rwanda as a leading global destination for eco-tourism and cultural exploration by showcasing its unparalleled natural beauty, rich history, and vibrant culture.  </p1>
                 </div>
               </div>
               <div className='mons'>
               <h1 style={{color:"white", fontWeight:"bold", fontSize:"16px", position:"absolute", marginTop:"2px"}}><BsBox2/> Our Mission</h1>
 
                 <div className='movs'>
-                <p1 style={{color:"#343a6b", marginTop:"4%", marginLeft:"4%", position:"absolute"}}>To provide comprehensive data services and solutions to businesses across various industries,   </p1>
+                <p1 style={{color:"#343a6b", marginTop:"4%", marginLeft:"4%", position:"absolute"}}>Visit Rwanda is committed to promoting sustainable tourism by connecting travelers with comprehensive, authentic, and unforgettable experiences across Rwanda.   </p1>
 
                 </div>
               </div>
@@ -209,7 +197,7 @@ import Rating from './Rating';
           
         </div>
       </div>
-      <div className='about' style={{width: isSmallScreen ? '250px':"", marginTop:"-6%"}}>
+      <div className='about' style={{width: isSmallScreen ? '250px':"", marginTop:"-17%"}}>
       <div className='ric' style={{marginLeft: isSmallScreen ? '15%':""}}>
       <div className='colors'></div>
       <h1 style={{width: isSmallScreen ?  '250px':''}}>What We Do</h1>
@@ -218,50 +206,24 @@ import Rating from './Rating';
       {/* <img src={Icon} className='safe' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/>
       <img src={icons} className='saf' style={{width: isSmallScreen ? '35px':"", marginTop: isSmallScreen ? '-24%':"", display: isSmallScreen ? "none":""}}/> */}
       <div className='data' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '100px':""}}>
-        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Collecting and analyzing data</h1>
-        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}>we specialize in providing comprehensive data collection and analysis services. We understand the importance of data as a strategic asset for businesses today. Our expert team is skilled in collecting data from various sources, ensuring its accuracy, relevance, and completeness.</p>
+        <h1 style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "4%":""}}>Eco-Tourism Tours</h1>
+        <p style={{marginLeft: isSmallScreen ? '25px':"", marginTop: isSmallScreen ? "2%":""}}> Guided tours that focus on conservation efforts, including visits to national parks, wildlife sanctuaries, and eco-friendly projects.</p>
         {/* <img src={data} className='safe' style={{marginTop: isSmallScreen ? '10%':"",marginLeft: isLargeScreen ? '-13%':"",height: isSmallScreen ? '6vh':""}}/> */}
       </div>
       <div className='bi' style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
-        <h1>Business intelligence activities</h1>
-        <p>we excel in performing business intelligence activities to transform raw data into actionable information. We employ advanced analytics techniques to extract valuable insights from complex data sets, enabling our clients to gain a deeper understanding of their business performance, market trends, and customer behavior.</p>
+        <h1>Cultural and Historical Tours</h1>
+        <p>Experiences that dive deep into Rwanda's rich cultural heritage and history, including genocide memorial sites, museums, and cultural villages.</p>
         <img src={Iconbb} className='safed' style={{marginTop: isSmallScreen ? '-85%':"" ,display: isLargeScreen ? "none":""}} />
         
         
       </div>
       <div className='train'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
         <h1>
-        Developing data strategies
+        Adventure Tourism
         </h1>
-        <p>Data is a valuable resource, and developing a comprehensive data strategy is crucial for businesses to leverage its full potential. We specialize in assisting businesses in developing data strategies tailored to their specific objectives and needs.</p>
+        <p> Offering activities for the thrill-seeker, such as volcano hiking, kayaking on Lake Kivu, and canopy walks in Nyungwe Forest.</p>
         <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-85%':"",display: isLargeScreen ? "none":""}}/>
         
-      </div>
-      <div className='cons'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
-        <h1>
-        Building data-related products:
-        </h1>
-        <p> In the era of data-driven innovation, businesses are seeking customized data-related products to solve their specific challenges. We specialize in building data-related products tailored to your unique requirements.</p>
-        {/* <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-85%':"",marginLeft: isLargeScreen ? '-13%':""}}/> */}
-
-      </div>
-
-      <div className='trai'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
-        <h1>
-        Training in data-related fields:
-        </h1>
-        <p>At Exec, we offer comprehensive training programs in data-related fields to empower individuals and organizations with the skills and knowledge required to thrive in the data-driven world.</p>
-        <img src={icons} className='safed' style={{marginTop: isSmallScreen ? '-85%':"",display: isLargeScreen ? "none":""}}/>
-        
-      </div>
-
-      <div className='con'  style={{marginLeft: isSmallScreen ? '-12px':"", marginTop: isSmallScreen ? '50px':""}}>
-        <h1>
-        Maturity assessment
-        </h1>
-        <p> We conduct holistic Maturity assessments across diverse sectors. With our extensive expertise, we go beyond data and provide comprehensive evaluations of an organization's overall maturity level in various domains. Working closely with businesses, we develop customized assessment models that align with their industry and specific objectives</p>
-        {/* <img src={Iconbb} className='safed'  style={{marginTop: isSmallScreen ? '-85%':"",marginLeft: isLargeScreen ? '-13%':""}}/> */}
-
       </div>
       
       </div>
@@ -276,17 +238,15 @@ import Rating from './Rating';
       <div className='us' style={{marginTop: isSmallScreen ?  '-18%':'',width: isSmallScreen ?  '80%':'', marginLeft: isSmallScreen ?  '9%':''}}>
       <div className='ricy' style={{display: isSmallScreen ?  'none':''}}>
             <div className='colo'style={{ display: isSmallScreen ?  'none':'', marginLeft: isLargeScreen ?  '-3px':''}}></div>
-            <h1 style={{display: isSmallScreen ? "none" : "", marginTop: isLargeScreen ?  '14px':'',marginLeft: isLargeScreen ?  '13px':''}}>Why us</h1>
+            <h1 style={{display: isSmallScreen ? "none" : "", marginTop: isLargeScreen ?  '14px':'',marginLeft: isLargeScreen ?  '13px':'',}}>Why us</h1>
         </div>
         <p style={{fontSize: isSmallScreen ? '18px':"",width: isSmallScreen ? '290px':"", marginTop: isSmallScreen ? '4%':"" , marginLeft: isSmallScreen ? '15%':""}}>Become a partner with Exec And unlock New Opportunities</p>
-        <h2  style={{width: isSmallScreen ?  '98%':'',marginTop: isSmallScreen ?  '-8%':''}}> We are proud to partner with industry-leading organizations to deliver innovative solutions and create a positive impact. Together, we strive to achieve excellence and drive success in our respective fields. Our partnerships are built on trust, mutual respect, and a shared vision for the future. By combining our expertise, resources, and networks, we can unlock new opportunities and deliver exceptional value to our customers.</h2>
+        <h2  style={{width: isSmallScreen ?  '98%':'',marginTop: isSmallScreen ?  '-8%':''}}> We are proud to partner with industry-leading organizations to deliver innovative solutions and create a positive impact. Together, we strive to achieve excellence and drive success in our respective fields. Our partnerships are built on trust, mutual respect, and a shared vision for the future. By combining our expertise, resources, and networks, we can unlock new opportunities and deliver exceptional value.</h2>
           <div className='picx' style={{display: isSmallScreen ?  'none':'',}}></div>
           <div className='picy' style={{display: isSmallScreen ?  'none':'',}}></div>
-          <div className='come' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
-          <h3 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":"", width:"450px"}}>we aim to provide comprehensive solutions </h3>
+          
          
-          <div className='help' style={{marginLeft: isSmallScreen ?  '-34%':''}}></div>
-          <h4 style={{fontSize: isSmallScreen ?  '18px':'', marginLeft: isSmallScreen ? "52px":"",width: isSmallScreen ? "250px":""}}>We believe in Collaborative Approach</h4>
+          
       </div>
       {/* <div className='proje' style={{marginTop: isSmallScreen ?  '130%':'',}}>
         <h1 style={{fontSize: isSmallScreen ? '18px':"",marginLeft: isSmallScreen ? "-40%":"", width: isSmallScreen? "50px":""}}>IA Rwanda Projects Across the World</h1>
@@ -312,17 +272,24 @@ import Rating from './Rating';
       
         <div>
           
-          <Newscard imgs={amer} dates="08" day="Thursday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" />
+          <Newscard imgs={amer} dates="08" day="Thursday" haha="Launch Announcement" huhu=" Discover the Heart of Africa: Visit Rwanda officially launches as your premier guide to exploring the beauty and diversity of Rwanda. Start your journey today" 
+        />
       
         </div>
   
 
        
         <div>
-        <Newscard imgs={bed} dates="06" day="Tuesday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" />
+          
+          <Newscard imgs={amer} dates="08" day="Thursday" haha="Cultural Festivals" huhu=" Discover the Heart of Africa: Visit Rwanda officially launches as your premier guide to exploring the beauty and diversity of Rwanda. Start your journey today" 
+        />
+      
         </div>
         <div>
-        <Newscard imgs={newsnow} dates="05" day="Monday" haha="Manager recently made a worthy solution for your business" huhu="We are dedicated in creating added value for our customers by implementing modern technology in our work. " yuh=". Urgent transport solutions" />
+          
+          <Newscard imgs={amer} dates="08" day="Thursday" haha="Conservation Success Stories:" huhu=" Discover the Heart of Africa: Visit Rwanda officially launches as your premier guide to exploring the beauty and diversity of Rwanda. Start your journey today" 
+        />
+      
         </div>
         
         </div> 

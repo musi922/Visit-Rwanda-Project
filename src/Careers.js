@@ -27,7 +27,7 @@ const Careers = () => {
       </div> */}
       <div className='menu-bar'style={{height:"10vh"}}>
       <div className='image' >
-            <img src={Logoz} style={{marginTop:"6px", marginLeft:"30%", height: "3vh"}}/>
+           
         </div>
         <div className='submenu' ref={navRef} style={{marginLeft:"-16%", marginTop: "16px"}}>
         <div className='home'>
@@ -47,16 +47,7 @@ const Careers = () => {
             <Link to={"/Contact"} style={{textDecoration:"none"}}><h1>Contact us</h1></Link>
         </div>
         <div className='Careers'>
-        <Link to={"/Careers"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
-  height: "32px",
-  border:"4px solid #FFB82B",
-  borderRadius: "5px",
-  borderLeft:"none",
-  borderTop:"none",
-  borderRight:"none",
-  textAlign: "center",
-  alignItems:"center",  transform: "translateX(2%)"
-  }}>Careers</h1></Link>
+        <Link to={"/Careers"}  style={{textDecoration:"none",}}><h1 >Careers</h1></Link>
         </div>
       
         </div>
@@ -82,12 +73,12 @@ const Careers = () => {
           <div className='logistics' style={{backgroundColor: isSmallScreen ?"transparent":""}}>
             <div className='color'></div>
             <h1>Want to become member</h1>
-            <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any Data in the World</h2>
+            <h2 style={{ fontSize: isSmallScreen ? '32px' : isLargeScreen ? '60px' : 'inherit' , width: isSmallScreen ? '262px':''}}>Your Gateway to any tourism in the rwanda</h2>
             <h3 style={{ display: isSmallScreen ? 'none' : '' , }}>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </h3>
 
-            <div className='explore' style={{display: isSmallScreen?"none":""}}>
+            <div className='explore' style={{display: isSmallScreen?"none":"",marginLeft:"-5%",marginTop:"-5%"}}>
               <div className='rot'></div>
-              <h1 style={{display: isSmallScreen?"none":""}}>Welcome here</h1>
+              <h1 style={{display: isSmallScreen?"none":"",}}>Welcome here</h1>
 
             </div>
           
@@ -116,19 +107,19 @@ Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis d
             <div className='boy'>
                 <h1>Categories</h1>
                 <div className='one'>
-                    <h1>Dashboard Designer</h1>
+                    <h1>Tourist Designer</h1>
                 </div>
                  <div className='two'>
-                    <h1>Database Administrator</h1>
+                    <h1>Tourist Administrator</h1>
                 </div>
                 <div className='three'>
-                <h1>Data Visualization Specialist</h1>
+                <h1>Tourist Specialist</h1>
                 </div>
                 <div className='four'>
-                <h1>Business Intelligence Analyst</h1>
+                <h1>Tourist Analyst</h1>
                 </div>
                 <div className='five'>
-                <h1>Dashboard Administrator</h1>
+                <h1>Tourist Administrator</h1>
                 </div> 
             </div>
         </div>
@@ -143,7 +134,7 @@ Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis d
           
         </div>
       </div>
-      <div className='shan' style={{marginTop: isSmallScreen?"80%":"",  width: isSmallScreen?"374px":""}}>
+      <div className='shan' style={{marginTop: isSmallScreen?"80%":"",  width: isSmallScreen?"374px":"",marginTop:"20%"}}>
       <Footer/>
       </div>
     </div>

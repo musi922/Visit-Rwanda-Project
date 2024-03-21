@@ -40,7 +40,7 @@ const Footer = () => {
        </div>
        <div className='emai'>
         <h1 style={{marginLeft: isSmallScreen? "-20%":"",fontSize: isSmallScreen? "10px":"" }}>Email<br></br>
-IA group@gmail.com</h1>
+visitrwanda@gmail.com</h1>
        </div>
        <div className='ema'>
         <h1 style={{marginLeft: isSmallScreen? "54%":"", marginTop: isSmallScreen? "-9%":"",fontSize: isSmallScreen? "10px":"" }}>Call Us<br></br> +250799340499</h1>
@@ -74,7 +74,7 @@ IA group@gmail.com</h1>
         </div>
        </div>
        <div className='copy'>
-        <h1 style={{marginTop: isSmallScreen? "70%":"",marginLeft: isSmallScreen? "2%":"",fontSize: isSmallScreen? "10px":"",width: isSmallScreen ? "250px":""}}>&copy; {2023} Intelligence Analytics group. All Rights Reserved</h1>
+        <h1 style={{marginTop: isSmallScreen? "70%":"",marginLeft: isSmallScreen? "2%":"",fontSize: isSmallScreen? "10px":"",width: isSmallScreen ? "250px":""}}>&copy; {2023}  visit Rwanda. All Rights Reserved</h1>
         <div className='admin'>
             <h1 style={{marginTop: isSmallScreen? "-30%":"",marginLeft: isSmallScreen? "40%":"",fontSize: isSmallScreen? "10px":"", width: isSmallScreen?"50px":""}}>Admin</h1>
             <h2 style={{marginTop: isSmallScreen? "-9%":"",marginLeft: isSmallScreen? "25%":"",fontSize: isSmallScreen? "10px":"", width: isSmallScreen?"57px":""}}>Terms of use</h2>

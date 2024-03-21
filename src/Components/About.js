@@ -31,8 +31,8 @@ const About = () => {
       <Nav/>
       </div> */}
       <div className='menu-bar' style={{height:"10vh"}}>
-      <img src={Logoz} style={{marginTop:"26px", marginLeft:"10%", height: "3vh"}}/>
-        <div className='submenu' ref={navRef} style={{marginLeft:"-8%", marginTop: "16px"}}>
+      
+        <div className='submenu' ref={navRef} style={{marginLeft:"37%", marginTop: "16px"}}>
         <div className='home'>
         <Link to={"/"}  style={{textDecoration:"none"}}><h1>Home</h1></Link>
         </div>
@@ -42,16 +42,7 @@ const About = () => {
         <div className='About'>
 
            
-            <Link to={"/AboutIA"}  style={{textDecoration:"none",}}><h1 style={{textDecoration:"none",   width: "90px",
-  height: "32px",
-  border:"4px solid #FFB82B",
-  borderRadius: "5px",
-  borderLeft:"none",
-  borderTop:"none",
-  borderRight:"none",
-  textAlign: "center",
-  alignItems:"center",  transform: "translateX(2%)"
-  }}>About us</h1></Link>
+            <Link to={"/AboutIA"}  style={{textDecoration:"none",}}><h1 >About us</h1></Link>
         </div>
         <div className='projects'>
         <Link to={"/Blog"} style={{textDecoration:"none"}}><h1>Blog</h1></Link>
@@ -87,7 +78,7 @@ const About = () => {
            
            
 
-            <div className='explore' style={{ marginTop: isSmallScreen? "-400px":"",marginLeft: isSmallScreen? "-45px":"", width: isSmallScreen? "150px":"", height: isSmallScreen?"8vh":""}}>
+            <div className='explore' style={{ marginTop: isSmallScreen? "-400px":"",marginLeft: isSmallScreen? "-45px":"", width: isSmallScreen? "150px":"", height: isSmallScreen?"8vh":"",marginLeft:"100%",marginTop:"-15%"}}>
               <div className='rot'></div>
               <h1>Discover</h1>
 
@@ -108,7 +99,7 @@ const About = () => {
         <div className='hup'>
           <h1 style={{marginTop: isSmallScreen?"-34%":"", marginLeft: isSmallScreen?"-40%":"", fontSize: isSmallScreen?"25px":"", position: isSmallScreen?"absolute":"",}}> Company mission</h1>
           <p style={{marginTop: isSmallScreen?"-44%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":""}}>“Success is based on pro-active and dedicated teamwork in a professional and ethical environment...” </p><br></br>
-          <h2 style={{marginTop: isSmallScreen?"-74%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>Our mission is to provide comprehensive data services and solutions to businesses across various industries, leveraging cutting-edge technologies and expertise. We strive to collect, analyze, and manage data effectively, enabling our clients to gain valuable insights, optimize their operations, and drive innovation. 
+          <h2 style={{marginTop: isSmallScreen?"-74%":"", marginLeft: isSmallScreen?"-96%":"", fontSize: isSmallScreen?"12px":"",  width: isSmallScreen?"350px":""}}>Visit Rwanda is committed to promoting sustainable tourism by connecting travelers with comprehensive, authentic, and unforgettable experiences across Rwanda. 
 
 </h2>
         </div>
@@ -126,17 +117,17 @@ const About = () => {
         <div className='hai' style={{marginTop: isSmallScreen?"10%":""}}>
         <img src={hai} style={{height:"60vh", width:"100%", border:"1px solid transparent", borderRadius:"8px"}}/>
         <h1 style={{fontSize: isSmallScreen?"25px":"", marginTop: isSmallScreen?"-74%":"",  marginLeft: isSmallScreen?"9%":"", width: isSmallScreen?"250px":""}}>Company vision </h1>
-        <p style={{marginTop: isSmallScreen?"-64%":"", marginLeft: isSmallScreen?"6%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":"" , }}>To empower businesses and individuals through data-driven insights and solutions, enabling them to make informed decisions and achieve their maximum potential in an increasingly data-centric world.
+        <p style={{marginTop: isSmallScreen?"-64%":"", marginLeft: isSmallScreen?"6%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":"" , }}>To position Rwanda as a leading global destination for eco-tourism and cultural exploration by showcasing its unparalleled natural beauty, rich history, and vibrant culture. 
 
 </p>
         </div>
         <div className='founders'>
           <h1 style={{fontSize: isSmallScreen?"25px":"", marginTop: isSmallScreen?"4%":"",  marginLeft: isSmallScreen?"9%":"",}}>Our Founders </h1>
           <div className='fou'>
-        <img src={shema} style={{height:"45vh", width:"90%", border:"1px solid transparent", borderRadius:"8px" , width: isSmallScreen? "300px":"", marginTop: isSmallScreen?"80%":"", position: isSmallScreen?"absolute":""}}/>
-        <h2 style={{fontSize: isSmallScreen?"16px":"", width: isSmallScreen?"350px":"",  display: isSmallScreen?"none":"",}}>Mr. Shema Frank</h2>
-        <h3 style={{marginTop: isSmallScreen?"10%":"", marginLeft: isSmallScreen?"19%":"", fontSize: isSmallScreen?"15px":"",  width: isSmallScreen?"250px":"" , }}>Mr. Shema Frank</h3>
-        <p style={{marginTop: isSmallScreen?"15%":"", marginLeft: isSmallScreen?"4%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":"" , }}>Bachelor’s degree in Applied Mathematics and Data Engineering from University of Rwanda, Cairo, Egypt, 2002. With 20 years of experience in the construction field for the main contractor of the below-listed construction projects before founding Projex-Tec.</p>
+        <img src={hai} style={{height:"45vh", width:"20%", border:"1px solid transparent", borderRadius:"8px" , width: isSmallScreen? "300px":"", marginTop: isSmallScreen?"80%":"", position: isSmallScreen?"absolute":"",marginLeft:"-35%"}}/>
+        <h2 style={{fontSize: isSmallScreen?"16px":"", width: isSmallScreen?"350px":"",  display: isSmallScreen?"none":"",}}>Mr. musime Richard</h2>
+        <h3 style={{marginTop: isSmallScreen?"10%":"", marginLeft: isSmallScreen?"19%":"", fontSize: isSmallScreen?"15px":"",  width: isSmallScreen?"250px":"" , marginLeft:"45%"}}>Musime Richard</h3>
+        <p style={{marginTop: isSmallScreen?"15%":"", marginLeft: isSmallScreen?"4%":"", fontSize: isSmallScreen?"14px":"",  width: isSmallScreen?"310px":"" ,marginLeft:"40%", marginTop:"-20%"}}>Bachelors degree in computer engineering and Data Engineering from University of Rwanda, Cairo, Egypt, 2002. With 20 years of experience in the construction field for the main contractor of the below-listed construction projects before founding Projex-Tec.</p>
         </div>
         </div>
       </div>
